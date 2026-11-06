@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "version": 8,
+  "version": 9,
   "updatedAt": "2026-11-06",
   "staleAfterDays": 90,
   "regions": {
@@ -1061,7 +1061,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 10.99,
+              "amount": 11.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.starz.com/us/en/buy",
               "method": "manual"
             }
           }
@@ -1078,12 +1080,14 @@
             "US": {
               "currency": "USD",
               "amount": 69.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://support.starz.com/en_us/annual-billing-BJPtMEWys",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.starz.com/us/en/buy)."
     },
     {
       "id": "mgm-plus",
@@ -1146,7 +1150,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 6.99,
+              "amount": 7.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.amcplus.com/",
               "method": "manual"
             }
           }
@@ -1162,13 +1168,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 9.99,
+              "amount": 10.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.amcplus.com/",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.amcplus.com/)."
     },
     {
       "id": "shudder",
@@ -1188,7 +1196,7 @@
       "plans": [
         {
           "id": "monthly",
-          "name": "Shudder",
+          "name": "Shudder Premium",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -1197,7 +1205,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 8.99,
+              "amount": 9.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://support.shudder.com/kb/guide/en/how-much-does-shudder-cost-Umm93c54c2/Steps/3735111",
               "method": "manual"
             }
           }
@@ -1219,7 +1229,7 @@
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://support.shudder.com/kb/guide/en/how-much-does-shudder-cost-Umm93c54c2/Steps/3735111)."
     },
     {
       "id": "britbox",
@@ -1339,7 +1349,7 @@
       "plans": [
         {
           "id": "monthly",
-          "name": "Philo",
+          "name": "Essential",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -1348,13 +1358,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 33,
+              "amount": 25,
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.philo.com/account-billing/essential/",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://help.philo.com/account-billing/essential/)."
     },
     {
       "id": "sling-tv",
@@ -1385,6 +1397,8 @@
             "US": {
               "currency": "USD",
               "amount": 45.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.sling.com/service/compare-plans",
               "method": "manual"
             }
           }
@@ -1400,7 +1414,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 50.99,
+              "amount": 45.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.sling.com/service/compare-plans",
               "method": "manual"
             }
           }
@@ -1417,12 +1433,14 @@
             "US": {
               "currency": "USD",
               "amount": 60.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.sling.com/service/compare-plans",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.sling.com/service/compare-plans)."
     },
     {
       "id": "fubo",
@@ -1452,13 +1470,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 84.99,
+              "amount": 88.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://support.fubo.tv/hc/en-us/articles/46604802430605-I-m-a-Fubo-Subscriber-Is-My-Price-Changing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://support.fubo.tv/hc/en-us/articles/46604802430605-I-m-a-Fubo-Subscriber-Is-My-Price-Changing)."
     },
     {
       "id": "directv-stream",
@@ -1528,7 +1548,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 12.99,
+              "amount": 13.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://support.espn.com/hc/en-us/articles/40375475974036-ESPN-Select-or-Unlimited-Plans-and-Prices",
               "method": "manual"
             }
           }
@@ -1544,13 +1566,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 29.99,
+              "amount": 31.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://support.espn.com/hc/en-us/articles/40375475974036-ESPN-Select-or-Unlimited-Plans-and-Prices",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://support.espn.com/hc/en-us/articles/40375475974036-ESPN-Select-or-Unlimited-Plans-and-Prices)."
     },
     {
       "id": "dazn",
@@ -1570,7 +1594,7 @@
       "plans": [
         {
           "id": "monthly",
-          "name": "DAZN Standard",
+          "name": "DAZN Standard Monthly",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -1579,13 +1603,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 24.99,
+              "amount": 34.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.dazn.com/hc/en-us/articles/16184063399709-DAZN-plans-and-pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://help.dazn.com/hc/en-us/articles/16184063399709-DAZN-plans-and-pricing)."
     },
     {
       "id": "mubi",
@@ -1604,7 +1630,7 @@
       "plans": [
         {
           "id": "monthly",
-          "name": "MUBI",
+          "name": "MUBI Classic",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -1614,13 +1640,15 @@
             "US": {
               "currency": "USD",
               "amount": 14.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://mubi.com/en/us/memberships",
               "method": "manual"
             }
           }
         },
         {
           "id": "annual",
-          "name": "MUBI Annual",
+          "name": "MUBI Classic Annual",
           "status": "active",
           "cycle": {
             "unit": "year",
@@ -1630,12 +1658,14 @@
             "US": {
               "currency": "USD",
               "amount": 119.88,
+              "verifiedAt": "2026-11-06",
+              "source": "https://mubi.com/en/us/memberships",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://mubi.com/en/us/memberships)."
     },
     {
       "id": "criterion-channel",
@@ -1665,6 +1695,8 @@
             "US": {
               "currency": "USD",
               "amount": 10.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.criterionchannel.com/subscribe",
               "method": "manual"
             }
           }
@@ -1680,13 +1712,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 109.99,
+              "amount": 99.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.criterionchannel.com/subscribe",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.criterionchannel.com/subscribe)."
     },
     {
       "id": "curiositystream",
@@ -3667,7 +3701,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 4.99,
+              "amount": 5.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.pandora.com/s/article/2026-Pandora-Subscription-Rate-Change?language=en_US",
               "method": "manual"
             }
           }
@@ -3683,7 +3719,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 10.99,
+              "amount": 11.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.pandora.com/s/article/2026-Pandora-Subscription-Rate-Change?language=en_US",
               "method": "manual"
             }
           }
@@ -3706,7 +3744,7 @@
           "members": 6
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://help.pandora.com/s/article/2026-Pandora-Subscription-Rate-Change?language=en_US)."
     },
     {
       "id": "siriusxm",
@@ -3727,7 +3765,7 @@
       "plans": [
         {
           "id": "streaming",
-          "name": "Music Showcase",
+          "name": "All Access (App Only)",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -3736,7 +3774,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 9.99,
+              "amount": 11.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.siriusxm.com/plans/streaming",
               "method": "manual"
             }
           }
@@ -3758,7 +3798,7 @@
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.siriusxm.com/plans/streaming)."
     },
     {
       "id": "iheartradio",
@@ -3830,7 +3870,7 @@
       "plans": [
         {
           "id": "studio",
-          "name": "Studio",
+          "name": "Studio Solo",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -3840,13 +3880,15 @@
             "US": {
               "currency": "USD",
               "amount": 12.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.qobuz.com/us-en/music/streaming/offers/studio",
               "method": "manual"
             }
           }
         },
         {
           "id": "studio-annual",
-          "name": "Studio Annual",
+          "name": "Studio Solo Annual",
           "status": "active",
           "cycle": {
             "unit": "year",
@@ -3855,13 +3897,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 129.99,
+              "amount": 129.96,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.qobuz.com/us-en/music/streaming/offers/studio",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.qobuz.com/us-en/music/streaming/offers/studio)."
     },
     {
       "id": "napster",
@@ -5463,12 +5507,14 @@
             "US": {
               "currency": "USD",
               "amount": 14.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://mistral.ai/pricing/",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://mistral.ai/pricing/)."
     },
     {
       "id": "deepseek",
@@ -5586,12 +5632,14 @@
             "US": {
               "currency": "USD",
               "amount": 9.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://support.character.ai/hc/en-us/articles/55845963766555-C-ai-FAQ",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://support.character.ai/hc/en-us/articles/55845963766555-C-ai-FAQ)."
     },
     {
       "id": "replika",
@@ -5824,6 +5872,8 @@
             "US": {
               "currency": "USD",
               "amount": 15,
+              "verifiedAt": "2026-11-06",
+              "source": "https://runwayml.com/pricing",
               "method": "manual"
             }
           }
@@ -5840,12 +5890,14 @@
             "US": {
               "currency": "USD",
               "amount": 35,
+              "verifiedAt": "2026-11-06",
+              "source": "https://runwayml.com/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://runwayml.com/pricing)."
     },
     {
       "id": "pika",
@@ -6387,13 +6439,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 15,
+              "amount": 20,
+              "verifiedAt": "2026-11-06",
+              "source": "https://windsurf.com/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://windsurf.com/pricing)."
     },
     {
       "id": "replit",
@@ -6421,13 +6475,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 25,
+              "amount": 20,
+              "verifiedAt": "2026-11-06",
+              "source": "https://replit.com/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://replit.com/pricing)."
     },
     {
       "id": "lovable",
@@ -6456,12 +6512,14 @@
             "US": {
               "currency": "USD",
               "amount": 25,
+              "verifiedAt": "2026-11-06",
+              "source": "https://lovable.dev/guides/best-ai-app-builders",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://lovable.dev/guides/best-ai-app-builders)."
     },
     {
       "id": "bolt",
@@ -7127,12 +7185,14 @@
             "US": {
               "currency": "USD",
               "amount": 9,
+              "verifiedAt": "2026-11-06",
+              "source": "https://huggingface.co/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://huggingface.co/pricing)."
     },
     {
       "id": "icloud",
@@ -9350,6 +9410,8 @@
             "US": {
               "currency": "USD",
               "amount": 36,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.lastpass.com/pricing",
               "method": "manual"
             }
           }
@@ -9372,7 +9434,7 @@
           "members": 6
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.lastpass.com/pricing)."
     },
     {
       "id": "dashlane",
@@ -9509,12 +9571,14 @@
             "US": {
               "currency": "USD",
               "amount": 9.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://protonvpn.com/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://protonvpn.com/pricing)."
     },
     {
       "id": "cyberghost",
@@ -9973,12 +10037,14 @@
             "US": {
               "currency": "USD",
               "amount": 44.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.malwarebytes.com/premium",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.malwarebytes.com/premium)."
     },
     {
       "id": "avast",
@@ -10183,6 +10249,8 @@
             "US": {
               "currency": "USD",
               "amount": 8.4,
+              "verifiedAt": "2026-11-06",
+              "source": "https://knowledge.workspace.google.com/admin/billing/flexible-plan",
               "method": "manual"
             }
           }
@@ -10199,12 +10267,14 @@
             "US": {
               "currency": "USD",
               "amount": 16.8,
+              "verifiedAt": "2026-11-06",
+              "source": "https://knowledge.workspace.google.com/admin/billing/flexible-plan",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://knowledge.workspace.google.com/admin/billing/flexible-plan)."
     },
     {
       "id": "slack",
@@ -10233,12 +10303,14 @@
             "US": {
               "currency": "USD",
               "amount": 8.75,
+              "verifiedAt": "2026-11-06",
+              "source": "https://slack.com/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://slack.com/pricing)."
     },
     {
       "id": "zoom-workplace",
@@ -11351,7 +11423,7 @@
       "plans": [
         {
           "id": "standard",
-          "name": "Standard",
+          "name": "Standard (per seat, billed annually)",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -11360,13 +11432,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 12,
+              "amount": 10,
+              "verifiedAt": "2026-11-06",
+              "source": "https://calendly.com/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://calendly.com/pricing)."
     },
     {
       "id": "loom",
@@ -11740,6 +11814,8 @@
             "US": {
               "currency": "USD",
               "amount": 5,
+              "verifiedAt": "2026-11-06",
+              "source": "https://obsidian.md/pricing",
               "method": "manual"
             }
           }
@@ -11756,12 +11832,14 @@
             "US": {
               "currency": "USD",
               "amount": 10,
+              "verifiedAt": "2026-11-06",
+              "source": "https://obsidian.md/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://obsidian.md/pricing)."
     },
     {
       "id": "craft",
@@ -13602,12 +13680,14 @@
             "US": {
               "currency": "USD",
               "amount": 11.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.fortnite.com/fortnite-crew-subscription",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.fortnite.com/fortnite-crew-subscription)."
     },
     {
       "id": "minecraft-realms",
@@ -13640,6 +13720,8 @@
             "US": {
               "currency": "USD",
               "amount": 3.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.minecraft.net/en-us/realms",
               "method": "manual"
             }
           }
@@ -13656,12 +13738,14 @@
             "US": {
               "currency": "USD",
               "amount": 7.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.minecraft.net/en-us/realms",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.minecraft.net/en-us/realms)."
     },
     {
       "id": "amazon-luna",
@@ -16702,12 +16786,14 @@
             "US": {
               "currency": "USD",
               "amount": 199,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.whoop.com/us/en/membership/",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.whoop.com/us/en/membership/)."
     },
     {
       "id": "oura",
@@ -16737,12 +16823,14 @@
             "US": {
               "currency": "USD",
               "amount": 5.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://ouraring.com/membership",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://ouraring.com/membership)."
     },
     {
       "id": "garmin-connect-plus",
@@ -16772,6 +16860,8 @@
             "US": {
               "currency": "USD",
               "amount": 6.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.garmin.com/en-US/newsroom/press-release/wearables-health/elevate-your-health-and-fitness-goals-with-garmin-connect/",
               "method": "manual"
             }
           }
@@ -16788,12 +16878,14 @@
             "US": {
               "currency": "USD",
               "amount": 69.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.garmin.com/en-US/newsroom/press-release/wearables-health/elevate-your-health-and-fitness-goals-with-garmin-connect/",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.garmin.com/en-US/newsroom/press-release/wearables-health/elevate-your-health-and-fitness-goals-with-garmin-connect/)."
     },
     {
       "id": "zwift",
@@ -16824,12 +16916,14 @@
             "US": {
               "currency": "USD",
               "amount": 19.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.zwift.com/news/33635-how-much-does-zwift-cost-and-whats-included-everything-you-need-to-know",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.zwift.com/news/33635-how-much-does-zwift-cost-and-whats-included-everything-you-need-to-know)."
     },
     {
       "id": "alltrails",
@@ -16859,6 +16953,8 @@
             "US": {
               "currency": "USD",
               "amount": 35.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.alltrails.com/plus/info",
               "method": "manual"
             }
           }
@@ -16875,12 +16971,14 @@
             "US": {
               "currency": "USD",
               "amount": 79.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.alltrails.com/press/alltrails-and-rei-introduce-partnership",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.alltrails.com/plus/info)."
     },
     {
       "id": "komoot",
@@ -17757,6 +17855,8 @@
             "US": {
               "currency": "USD",
               "amount": 15,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.planetfitness.com/",
               "method": "manual"
             }
           }
@@ -17772,13 +17872,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 29.99,
+              "amount": 24.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.planetfitness.com/",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.planetfitness.com/)."
     },
     {
       "id": "anytime-fitness",
@@ -18377,12 +18479,14 @@
             "US": {
               "currency": "USD",
               "amount": 107.4,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.babbel.com/babbel-review",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.babbel.com/babbel-review)."
     },
     {
       "id": "rosetta-stone",
@@ -18579,7 +18683,7 @@
       "plans": [
         {
           "id": "individual",
-          "name": "Individual Annual",
+          "name": "Standard (billed annually)",
           "status": "active",
           "cycle": {
             "unit": "year",
@@ -18589,13 +18693,15 @@
             "US": {
               "currency": "USD",
               "amount": 120,
+              "verifiedAt": "2026-11-06",
+              "source": "https://masterclass.com/plans",
               "method": "manual"
             }
           }
         },
         {
           "id": "duo",
-          "name": "Duo Annual",
+          "name": "Plus (billed annually)",
           "status": "active",
           "cycle": {
             "unit": "year",
@@ -18605,13 +18711,15 @@
             "US": {
               "currency": "USD",
               "amount": 180,
+              "verifiedAt": "2026-11-06",
+              "source": "https://masterclass.com/plans",
               "method": "manual"
             }
           },
           "members": 2
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://masterclass.com/plans)."
     },
     {
       "id": "skillshare",
@@ -18639,13 +18747,15 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 168,
+              "amount": 167.88,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.skillshare.com/en/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.skillshare.com/en/pricing)."
     },
     {
       "id": "linkedin-learning",
@@ -18744,12 +18854,14 @@
             "US": {
               "currency": "USD",
               "amount": 161.88,
+              "verifiedAt": "2026-11-06",
+              "source": "https://brilliant.org/premium/",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://brilliant.org/premium/)."
     },
     {
       "id": "chegg",
@@ -18959,12 +19071,14 @@
             "US": {
               "currency": "USD",
               "amount": 179.88,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.codecademy.com/pricing",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.codecademy.com/pricing)."
     },
     {
       "id": "pluralsight",
@@ -19857,12 +19971,14 @@
             "US": {
               "currency": "USD",
               "amount": 25,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.visible.com/plans/base",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.visible.com/plans/base)."
     },
     {
       "id": "verizon",
@@ -21037,6 +21153,8 @@
             "US": {
               "currency": "USD",
               "amount": 9.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.doordash.com/en-us/consumers/article/chase-partnership",
               "method": "manual"
             }
           }
@@ -21053,12 +21171,14 @@
             "US": {
               "currency": "USD",
               "amount": 96,
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.doordash.com/en-us/consumers/article/chase-partnership",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://help.doordash.com/en-us/consumers/article/chase-partnership)."
     },
     {
       "id": "grubhub-plus",
@@ -21123,6 +21243,8 @@
             "US": {
               "currency": "USD",
               "amount": 9.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.instacart.com/instacart-plus",
               "method": "manual"
             }
           }
@@ -21139,12 +21261,14 @@
             "US": {
               "currency": "USD",
               "amount": 99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.instacart.com/instacart-plus",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.instacart.com/instacart-plus)."
     },
     {
       "id": "walmart-plus",
@@ -21173,6 +21297,8 @@
             "US": {
               "currency": "USD",
               "amount": 12.95,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.walmart.com/help/article/walmart-membership/534c4edc29204a6bb15145a61146bf51",
               "method": "manual"
             }
           }
@@ -21189,12 +21315,14 @@
             "US": {
               "currency": "USD",
               "amount": 98,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.walmart.com/help/article/walmart-membership/534c4edc29204a6bb15145a61146bf51",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.walmart.com/help/article/walmart-membership/534c4edc29204a6bb15145a61146bf51)."
     },
     {
       "id": "target-circle-360",
@@ -21256,6 +21384,8 @@
             "US": {
               "currency": "USD",
               "amount": 65,
+              "verifiedAt": "2026-11-06",
+              "source": "https://customerservice.costco.com/app/answers/answer_view/a_id/1013504/~/membership-fee-increase",
               "method": "manual"
             }
           }
@@ -21272,12 +21402,14 @@
             "US": {
               "currency": "USD",
               "amount": 130,
+              "verifiedAt": "2026-11-06",
+              "source": "https://customerservice.costco.com/app/answers/answer_view/a_id/1013504/~/membership-fee-increase",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://customerservice.costco.com/app/answers/answer_view/a_id/1013504/~/membership-fee-increase)."
     },
     {
       "id": "sams-club",
@@ -21876,7 +22008,9 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 4.99,
+              "amount": 7.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.life360.com/blog/family-locator-app",
               "method": "manual"
             }
           }
@@ -21893,12 +22027,14 @@
             "US": {
               "currency": "USD",
               "amount": 14.99,
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.life360.com/blog/family-locator-app",
               "method": "manual"
             }
           }
         }
       ],
-      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+      "note": "C1 2026-11-06: gia US xac minh tren trang hang (https://www.life360.com/blog/family-locator-app)."
     },
     {
       "id": "tile",

@@ -9,7 +9,8 @@ Batch format (UTF-8, '#' comments, blank lines ignored, fields separated by '|')
       plan-id|Plan name|cycle|US|VN|members  plan line (indented). cycle = m1, m3, y1, w1, d30...
                                             US/VN = amount or empty; members optional
     @id|storeName;storeName                 add storeNames to an existing service
-    !id/plan|amount|YYYY-MM-DD|https://...  set a VERIFIED US price (method manual, verifiedAt, source)
+    !id/plan|amount|YYYY-MM-DD|https://...[|Plan name]  set a VERIFIED US price (method manual, verifiedAt,
+                                            source); optional 5th field renames the plan to the current name
 
 Empty color/mono -> generated (unique tile); empty URLs -> null. New prices without '!' are Reference prices
 (no verifiedAt). Existing service ids are never overwritten. Bumps `version` when data changed.
@@ -87,6 +88,8 @@ def main(argv) -> int:
                     raise KeyError(f"{sid}/{pid}")
                 p["prices"]["US"] = {"currency": "USD", "amount": money(f[1], "USD"), "verifiedAt": f[2],
                                      "source": f[3], "method": "manual"}
+                if len(f) > 4 and f[4]:
+                    p["name"] = f[4]
                 s = by_id[sid]
                 if s.get("note", "").startswith("C1 2026-11-06: gia US uoc"):
                     s["note"] = f"C1 2026-11-06: gia US xac minh tren trang hang ({f[3]})."
