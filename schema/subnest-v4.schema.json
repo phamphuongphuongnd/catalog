@@ -13,13 +13,10 @@
     "staleAfterDays": { "const": 90, "description": "A price whose verifiedAt is older than this (or missing) is approximate." },
     "regions": {
       "type": "object",
-      "description": "Region code -> default currency. UK is used for the United Kingdom (ISO 3166 'GB').",
+      "description": "Region code -> currency. US prices are shared by everyone (converted '≈'); VN prices are for services sold in Viet Nam (shown only on devices in VN).",
       "additionalProperties": false,
-      "required": ["VN", "US", "UK", "AU", "CA", "IN"],
-      "properties": {
-        "VN": { "const": "VND" }, "US": { "const": "USD" }, "UK": { "const": "GBP" },
-        "AU": { "const": "AUD" }, "CA": { "const": "CAD" }, "IN": { "const": "INR" }
-      }
+      "required": ["US", "VN"],
+      "properties": { "US": { "const": "USD" }, "VN": { "const": "VND" } }
     },
     "services": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/service" } }
   },
@@ -43,6 +40,7 @@
         "cancelUrl": { "oneOf": [{ "$ref": "#/$defs/httpsUrl" }, { "type": "null" }] },
         "manageUrl": { "oneOf": [{ "$ref": "#/$defs/httpsUrl" }, { "type": "null" }] },
         "plans": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/plan" } },
+        "storeNames": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "Optional. Names exactly as shown on the Google Play 'Subscriptions' and App Store 'Subscriptions' pages (e.g. 'YouTube Premium', 'ChatGPT Plus'); used by the on-device screenshot scanner to match a Service." },
         "note": { "type": "string", "description": "Maintainer note (Vietnamese). Not shown in the app; absent from services.min.json." }
       }
     },
@@ -64,7 +62,7 @@
         "members": { "type": "integer", "minimum": 2 },
         "prices": {
           "type": "object",
-          "propertyNames": { "enum": ["VN", "US", "UK", "AU", "CA", "IN"] },
+          "propertyNames": { "enum": ["US", "VN"] },
           "additionalProperties": { "$ref": "#/$defs/price" }
         }
       }

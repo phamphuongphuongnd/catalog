@@ -60,7 +60,7 @@ def report(on, before, after, rows, read_errors, errors, warns, stats, written) 
         lines += [f"**KẾT QUẢ: không đổi dữ liệu** (version {before}).", ""]
     lines += [f"- Dịch vụ · gói · giá: {stats.get('services')} · {stats.get('plans')} · {stats.get('prices')}",
               f"- Giá chưa xác minh hoặc quá {common.STALE_AFTER_DAYS} ngày: {stats.get('unverified_or_stale')}",
-              "- Aristocles (US/UK/AU/CA/IN): **bỏ qua** — chưa rõ quyền đăng lại dữ liệu (README › Aristocles).",
+              "- Aristocles (US): **bỏ qua** — chưa rõ quyền đăng lại dữ liệu (README › Aristocles).",
               ""]
     changed = [r for r in rows if r[3] != "same (re-verified)"]
     lines += ["## Giá đổi", ""]

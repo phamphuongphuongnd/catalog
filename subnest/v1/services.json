@@ -1,15 +1,11 @@
 {
   "schemaVersion": 4,
-  "version": 4,
+  "version": 5,
   "updatedAt": "2026-11-06",
   "staleAfterDays": 90,
   "regions": {
-    "VN": "VND",
     "US": "USD",
-    "UK": "GBP",
-    "AU": "AUD",
-    "CA": "CAD",
-    "IN": "INR"
+    "VN": "VND"
   },
   "services": [
     {
@@ -133,7 +129,10 @@
           }
         }
       ],
-      "note": "VN gồm VAT 10% (tăng từ 07/2025); US sau đợt tăng 03/2026. Đã đối chiếu 2026-11-05 trên help.netflix.com/vi/node/24926 (VN) và /en/node/24926/us (US): mọi giá khớp."
+      "note": "VN gồm VAT 10% (tăng từ 07/2025); US sau đợt tăng 03/2026. Đã đối chiếu 2026-11-05 trên help.netflix.com/vi/node/24926 (VN) và /en/node/24926/us (US): mọi giá khớp.",
+      "storeNames": [
+        "Netflix"
+      ]
     },
     {
       "id": "youtube-premium",
@@ -253,7 +252,11 @@
           }
         }
       ],
-      "note": "VN đối chiếu 2026-11-05 trên youtube.com/premium: Individual 79.000, Family 149.000, Student 49.000, Lite 49.000đ (trang ghi \"chưa gồm VAT\"). US 2026-11-05 (WebSearch, vùng Mỹ): trang YouTube Premium ghi 15.99/26.99/Student 8.99; Lite 8.99 khớp androidcentral/notebookcheck/9to5google (đợt tăng giá 04/2026: Individual +2, Family +4, Lite +1). Mua qua iOS đắt hơn."
+      "note": "VN đối chiếu 2026-11-05 trên youtube.com/premium: Individual 79.000, Family 149.000, Student 49.000, Lite 49.000đ (trang ghi \"chưa gồm VAT\"). US 2026-11-05 (WebSearch, vùng Mỹ): trang YouTube Premium ghi 15.99/26.99/Student 8.99; Lite 8.99 khớp androidcentral/notebookcheck/9to5google (đợt tăng giá 04/2026: Individual +2, Family +4, Lite +1). Mua qua iOS đắt hơn.",
+      "storeNames": [
+        "YouTube Premium",
+        "YouTube"
+      ]
     },
     {
       "id": "disney-plus",
@@ -308,7 +311,10 @@
           }
         }
       ],
-      "note": "Không bán chính thức tại VN. US tăng 21/10/2026. 2026-11-05 (WebSearch, vùng Mỹ): disneyplus.com/welcome ghi Disney+ (With Ads) $12.49, Premium $21.49 ($214.99/năm) — khớp catalog."
+      "note": "Không bán chính thức tại VN. US tăng 21/10/2026. 2026-11-05 (WebSearch, vùng Mỹ): disneyplus.com/welcome ghi Disney+ (With Ads) $12.49, Premium $21.49 ($214.99/năm) — khớp catalog.",
+      "storeNames": [
+        "Disney+"
+      ]
     },
     {
       "id": "prime-video",
@@ -362,7 +368,11 @@
           }
         }
       ],
-      "note": "2026-11-05: từ 10/04/2026 gói bỏ quảng cáo đổi tên Prime Video Ultra, add-on $4.99/tháng (đã tăng từ $2.99; $45.99/năm) theo 9to5google, pulse2, ppc.land, advanced-television. Ad-free = 8.99 (Prime Video lẻ, trang trợ giúp amazon.com) + 4.99 = 13.98: giá tổng cộng suy ra nên vẫn approx. Giá VN chưa xác minh."
+      "note": "2026-11-05: từ 10/04/2026 gói bỏ quảng cáo đổi tên Prime Video Ultra, add-on $4.99/tháng (đã tăng từ $2.99; $45.99/năm) theo 9to5google, pulse2, ppc.land, advanced-television. Ad-free = 8.99 (Prime Video lẻ, trang trợ giúp amazon.com) + 4.99 = 13.98: giá tổng cộng suy ra nên vẫn approx. Giá VN chưa xác minh.",
+      "storeNames": [
+        "Prime Video",
+        "Amazon Prime Video"
+      ]
     },
     {
       "id": "apple-tv",
@@ -406,7 +416,11 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên apple.com/apple-tv-plus (US 14.99) và apple.com/vn/apple-tv-plus (VN 179.000đ/tháng, dùng thử 7 ngày)."
+      "note": "Đã đối chiếu 2026-11-05 trên apple.com/apple-tv-plus (US 14.99) và apple.com/vn/apple-tv-plus (VN 179.000đ/tháng, dùng thử 7 ngày).",
+      "storeNames": [
+        "Apple TV",
+        "Apple TV+"
+      ]
     },
     {
       "id": "hbo-max",
@@ -515,7 +529,11 @@
           }
         }
       ],
-      "note": "VN đối chiếu 2026-11-05 trên hbomax.com/auth/product: Standard 699.000, Premium 949.000đ/năm (giá theo tháng chưa xem được vì cửa sổ cookie chặn nút chuyển). US 2026-11-05: help.hbomax.com/Answer/detail/000002547 ghi 10.99 / 18.49 / 22.99 mỗi tháng (đợt tăng 21/10/2025; năm 109.99 / 184.99 / 229.99)."
+      "note": "VN đối chiếu 2026-11-05 trên hbomax.com/auth/product: Standard 699.000, Premium 949.000đ/năm (giá theo tháng chưa xem được vì cửa sổ cookie chặn nút chuyển). US 2026-11-05: help.hbomax.com/Answer/detail/000002547 ghi 10.99 / 18.49 / 22.99 mỗi tháng (đợt tăng 21/10/2025; năm 109.99 / 184.99 / 229.99).",
+      "storeNames": [
+        "HBO Max",
+        "Max"
+      ]
     },
     {
       "id": "hulu",
@@ -568,7 +586,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): hulu.com/annual-offer ghi Hulu (With Ads) $12.49/tháng; No Ads $21.49 theo variety/deadline/cordcuttersnews/droid-life (đợt tăng 23/09/2026: With Ads +0.50, No Ads +2.50). Gói bundle Disney+ & Hulu $12.99 (ads) / $21.99 (Premium)."
+      "note": "2026-11-05 (WebSearch): hulu.com/annual-offer ghi Hulu (With Ads) $12.49/tháng; No Ads $21.49 theo variety/deadline/cordcuttersnews/droid-life (đợt tăng 23/09/2026: With Ads +0.50, No Ads +2.50). Gói bundle Disney+ & Hulu $12.99 (ads) / $21.99 (Premium).",
+      "storeNames": [
+        "Hulu"
+      ]
     },
     {
       "id": "peacock",
@@ -622,7 +643,11 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): Peacock tăng giá hiệu lực 18/08/2026 — Premium $12.99 (cũ 10.99), Premium Plus $19.99 (cũ 16.99); năm 129.99 / 199.99; theo tvline, droid-life, cordcuttersnews, wdbo (AP). Gói Select $8.99 chưa đưa vào."
+      "note": "2026-11-05 (WebSearch): Peacock tăng giá hiệu lực 18/08/2026 — Premium $12.99 (cũ 10.99), Premium Plus $19.99 (cũ 16.99); năm 129.99 / 199.99; theo tvline, droid-life, cordcuttersnews, wdbo (AP). Gói Select $8.99 chưa đưa vào.",
+      "storeNames": [
+        "Peacock",
+        "Peacock TV"
+      ]
     },
     {
       "id": "paramount-plus",
@@ -676,7 +701,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): tăng giá 15/01/2026 — Essential $8.99, Premium $13.99 (năm 89.99 / 139.99); theo AP (wdbo/wsbtv), techradar, techbook."
+      "note": "2026-11-05 (WebSearch): tăng giá 15/01/2026 — Essential $8.99, Premium $13.99 (năm 89.99 / 139.99); theo AP (wdbo/wsbtv), techradar, techbook.",
+      "storeNames": [
+        "Paramount+"
+      ]
     },
     {
       "id": "crunchyroll",
@@ -762,7 +790,10 @@
           }
         }
       ],
-      "note": "VN đối chiếu 2026-11-05 trên crunchyroll.com/premium: Fan 45.000, Mega Fan 59.000đ/tháng (chưa gồm thuế). US 2026-11-05 (WebSearch): tăng giá 02/2026 (hiệu lực 03/2026) — Fan 9.99, Mega Fan 13.99, Ultimate Fan 17.99; theo thewrap, alternativeto, finalweapon.net, superherohype."
+      "note": "VN đối chiếu 2026-11-05 trên crunchyroll.com/premium: Fan 45.000, Mega Fan 59.000đ/tháng (chưa gồm thuế). US 2026-11-05 (WebSearch): tăng giá 02/2026 (hiệu lực 03/2026) — Fan 9.99, Mega Fan 13.99, Ultimate Fan 17.99; theo thewrap, alternativeto, finalweapon.net, superherohype.",
+      "storeNames": [
+        "Crunchyroll"
+      ]
     },
     {
       "id": "fpt-play",
@@ -966,6 +997,1951 @@
       "note": "2026-11-05 (WebSearch): viettel.vn thông báo \"Điều chỉnh giá cước dịch vụ truyền hình TV360\" — gói Standard tăng 50.000 → 60.000đ/tháng cho khách đăng ký mới từ 15/05/2026. Nhiều gói data Viettel đã kèm TV360 Standard."
     },
     {
+      "id": "youtube-tv",
+      "name": "YouTube TV",
+      "category": "video",
+      "color": "#FF0033",
+      "monogram": "YV",
+      "market": "global",
+      "logoDomain": "tv.youtube.com",
+      "aliases": [
+        "youtube tv",
+        "live tv"
+      ],
+      "cancelUrl": "https://tv.youtube.com/settings/membership",
+      "manageUrl": "https://tv.youtube.com/settings/membership",
+      "plans": [
+        {
+          "id": "base",
+          "name": "Base Plan",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 82.99,
+              "verifiedAt": "2026-11-05",
+              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#youtube-tv",
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "Chỉ có tại Mỹ. 2026-11-05: tv.youtube.com/learn/explore-plans ghi Base Plan $82.99/tháng (khuyến mãi tháng đầu $59.99; chưa gồm thuế); có thêm gói Sports $64.99, Entertainment $54.99.",
+      "storeNames": [
+        "YouTube TV"
+      ]
+    },
+    {
+      "id": "starz",
+      "name": "Starz",
+      "category": "video",
+      "color": "#000000",
+      "monogram": "Sz",
+      "market": "global",
+      "logoDomain": "starz.com",
+      "aliases": [
+        "starz",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Starz",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Starz Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "mgm-plus",
+      "name": "MGM+",
+      "category": "video",
+      "color": "#A7863A",
+      "monogram": "M+",
+      "market": "global",
+      "logoDomain": "mgmplus.com",
+      "aliases": [
+        "mgm+",
+        "epix",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "MGM+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "amc-plus",
+      "name": "AMC+",
+      "category": "video",
+      "color": "#000001",
+      "monogram": "A+",
+      "market": "global",
+      "logoDomain": "amcplus.com",
+      "aliases": [
+        "amc+",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "ads",
+          "name": "AMC+ with ads",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "ad-free",
+          "name": "AMC+ Ad-Free",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "shudder",
+      "name": "Shudder",
+      "category": "video",
+      "color": "#E4002B",
+      "monogram": "Sh",
+      "market": "global",
+      "logoDomain": "shudder.com",
+      "aliases": [
+        "shudder",
+        "horror",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Shudder",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Shudder Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 89.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "britbox",
+      "name": "BritBox",
+      "category": "video",
+      "color": "#1C1C3C",
+      "monogram": "BB",
+      "market": "global",
+      "logoDomain": "britbox.com",
+      "aliases": [
+        "britbox",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "BritBox",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "BritBox Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 89.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "acorn-tv",
+      "name": "Acorn TV",
+      "category": "video",
+      "color": "#1E5C3A",
+      "monogram": "AT",
+      "market": "global",
+      "logoDomain": "acorn.tv",
+      "aliases": [
+        "acorn tv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Acorn TV",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Acorn TV Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 89.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "philo",
+      "name": "Philo",
+      "category": "video",
+      "color": "#7B2CF5",
+      "monogram": "Ph",
+      "market": "global",
+      "logoDomain": "philo.com",
+      "aliases": [
+        "philo",
+        "live tv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Philo",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 33,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "sling-tv",
+      "name": "Sling TV",
+      "category": "video",
+      "color": "#0072CE",
+      "monogram": "SL",
+      "market": "global",
+      "logoDomain": "sling.com",
+      "aliases": [
+        "sling tv",
+        "sling",
+        "live tv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "orange",
+          "name": "Sling Orange",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 45.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "blue",
+          "name": "Sling Blue",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 50.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "orange-blue",
+          "name": "Sling Orange & Blue",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 60.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "fubo",
+      "name": "Fubo",
+      "category": "video",
+      "color": "#FA4616",
+      "monogram": "Fu",
+      "market": "global",
+      "logoDomain": "fubo.tv",
+      "aliases": [
+        "fubo",
+        "fubotv",
+        "live tv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Fubo Pro",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 84.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "directv-stream",
+      "name": "DirecTV Stream",
+      "category": "video",
+      "color": "#00A6D6",
+      "monogram": "DT",
+      "market": "global",
+      "logoDomain": "directv.com",
+      "aliases": [
+        "directv stream",
+        "directv",
+        "live tv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "entertainment",
+          "name": "Entertainment",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 86.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "espn",
+      "name": "ESPN",
+      "category": "video",
+      "color": "#CC0000",
+      "monogram": "ES",
+      "market": "global",
+      "logoDomain": "espn.com",
+      "aliases": [
+        "espn",
+        "espn+",
+        "espn plus",
+        "xem phim"
+      ],
+      "storeNames": [
+        "ESPN",
+        "ESPN+"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "select",
+          "name": "ESPN Select",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "unlimited",
+          "name": "ESPN Unlimited",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "category": "video",
+      "color": "#0C161C",
+      "monogram": "DZ",
+      "market": "global",
+      "logoDomain": "dazn.com",
+      "aliases": [
+        "dazn",
+        "boxing",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "DAZN Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 24.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "mubi",
+      "name": "MUBI",
+      "category": "video",
+      "color": "#001489",
+      "monogram": "Mu",
+      "market": "global",
+      "logoDomain": "mubi.com",
+      "aliases": [
+        "mubi",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "MUBI",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "MUBI Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 119.88,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "criterion-channel",
+      "name": "Criterion Channel",
+      "category": "video",
+      "color": "#141414",
+      "monogram": "CC",
+      "market": "global",
+      "logoDomain": "criterionchannel.com",
+      "aliases": [
+        "criterion channel",
+        "criterion",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 109.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "curiositystream",
+      "name": "CuriosityStream",
+      "category": "video",
+      "color": "#F5A623",
+      "monogram": "Cs",
+      "market": "global",
+      "logoDomain": "curiositystream.com",
+      "aliases": [
+        "curiositystream",
+        "documentary",
+        "phim tai lieu",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "hidive",
+      "name": "HIDIVE",
+      "category": "video",
+      "color": "#00AEEF",
+      "monogram": "HD",
+      "market": "global",
+      "logoDomain": "hidive.com",
+      "aliases": [
+        "hidive",
+        "anime",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "HIDIVE",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "viki",
+      "name": "Rakuten Viki",
+      "category": "video",
+      "color": "#1E90FF",
+      "monogram": "Vk",
+      "market": "global",
+      "logoDomain": "viki.com",
+      "aliases": [
+        "rakuten viki",
+        "kdrama",
+        "phim han",
+        "xem phim"
+      ],
+      "storeNames": [
+        "Viki"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Viki Pass Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "plus",
+          "name": "Viki Pass Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "iqiyi",
+      "name": "iQIYI",
+      "category": "video",
+      "color": "#00CC36",
+      "monogram": "iQ",
+      "market": "global",
+      "logoDomain": "iq.com",
+      "aliases": [
+        "iqiyi",
+        "iq",
+        "phim trung",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "premium",
+          "name": "Premium VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "wetv",
+      "name": "WeTV",
+      "category": "video",
+      "color": "#FF6A00",
+      "monogram": "We",
+      "market": "global",
+      "logoDomain": "wetv.vip",
+      "aliases": [
+        "wetv",
+        "phim trung",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            },
+            "VN": {
+              "currency": "VND",
+              "amount": 59000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "viu",
+      "name": "Viu",
+      "category": "video",
+      "color": "#FFBF00",
+      "monogram": "Vu",
+      "market": "global",
+      "logoDomain": "viu.com",
+      "aliases": [
+        "viu",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Viu Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "jiohotstar",
+      "name": "JioHotstar",
+      "category": "video",
+      "color": "#0F1014",
+      "monogram": "JH",
+      "market": "global",
+      "logoDomain": "hotstar.com",
+      "aliases": [
+        "jiohotstar",
+        "hotstar",
+        "disney+ hotstar",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "super-annual",
+          "name": "Super Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "zee5",
+      "name": "ZEE5",
+      "category": "video",
+      "color": "#8230C6",
+      "monogram": "Z5",
+      "market": "global",
+      "logoDomain": "zee5.com",
+      "aliases": [
+        "zee5",
+        "zee",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium-annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 49.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "sonyliv",
+      "name": "Sony LIV",
+      "category": "video",
+      "color": "#1A1A1A",
+      "monogram": "SL",
+      "market": "global",
+      "logoDomain": "sonyliv.com",
+      "aliases": [
+        "sony liv",
+        "sonyliv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium-annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "hallmark-plus",
+      "name": "Hallmark+",
+      "category": "video",
+      "color": "#5B2C83",
+      "monogram": "Hm",
+      "market": "global",
+      "logoDomain": "hallmarkplus.com",
+      "aliases": [
+        "hallmark+",
+        "hallmark movies now",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Hallmark+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "frndly-tv",
+      "name": "Frndly TV",
+      "category": "video",
+      "color": "#1D3C78",
+      "monogram": "Fr",
+      "market": "global",
+      "logoDomain": "frndlytv.com",
+      "aliases": [
+        "frndly tv",
+        "live tv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "basic",
+          "name": "Basic",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "classic",
+          "name": "Classic",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "bet-plus",
+      "name": "BET+",
+      "category": "video",
+      "color": "#000002",
+      "monogram": "B+",
+      "market": "global",
+      "logoDomain": "bet.com",
+      "aliases": [
+        "bet+",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "BET+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "nba-league-pass",
+      "name": "NBA League Pass",
+      "category": "video",
+      "color": "#1D428A",
+      "monogram": "NB",
+      "market": "global",
+      "logoDomain": "nba.com",
+      "aliases": [
+        "nba league pass",
+        "basketball",
+        "bong ro",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "league-pass",
+          "name": "League Pass",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 16.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "premium",
+          "name": "League Pass Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 22.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "nfl-plus",
+      "name": "NFL+",
+      "category": "video",
+      "color": "#013369",
+      "monogram": "NF",
+      "market": "global",
+      "logoDomain": "nfl.com",
+      "aliases": [
+        "nfl+",
+        "football",
+        "bong bau duc",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "NFL+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "premium",
+          "name": "NFL+ Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "mlb-tv",
+      "name": "MLB.TV",
+      "category": "video",
+      "color": "#041E42",
+      "monogram": "ML",
+      "market": "global",
+      "logoDomain": "mlb.com",
+      "aliases": [
+        "mlb.tv",
+        "baseball",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "MLB.TV Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 149.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "f1-tv",
+      "name": "F1 TV",
+      "category": "video",
+      "color": "#E10600",
+      "monogram": "F1",
+      "market": "global",
+      "logoDomain": "formula1.com",
+      "aliases": [
+        "f1 tv",
+        "formula 1",
+        "dua xe",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "access",
+          "name": "F1 TV Access",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "pro",
+          "name": "F1 TV Pro",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 84.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ufc-fight-pass",
+      "name": "UFC Fight Pass",
+      "category": "video",
+      "color": "#D20A0A",
+      "monogram": "UF",
+      "market": "global",
+      "logoDomain": "ufcfightpass.com",
+      "aliases": [
+        "ufc fight pass",
+        "mma",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Fight Pass",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "category": "video",
+      "color": "#3B7BFF",
+      "monogram": "Ne",
+      "market": "global",
+      "logoDomain": "nebula.tv",
+      "aliases": [
+        "nebula",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Nebula",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Nebula Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 60,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "dropout",
+      "name": "Dropout",
+      "category": "video",
+      "color": "#FFD200",
+      "monogram": "Dr",
+      "market": "global",
+      "logoDomain": "dropout.tv",
+      "aliases": [
+        "dropout",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Dropout",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "plex-pass",
+      "name": "Plex Pass",
+      "category": "video",
+      "color": "#E5A00D",
+      "monogram": "Px",
+      "market": "global",
+      "logoDomain": "plex.tv",
+      "aliases": [
+        "plex pass",
+        "plex",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Plex Pass Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Plex Pass Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "sundance-now",
+      "name": "Sundance Now",
+      "category": "video",
+      "color": "#2D2D2D",
+      "monogram": "SN",
+      "market": "global",
+      "logoDomain": "sundancenow.com",
+      "aliases": [
+        "sundance now",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Sundance Now",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "discovery-plus",
+      "name": "discovery+",
+      "category": "video",
+      "color": "#0046FF",
+      "monogram": "d+",
+      "market": "global",
+      "logoDomain": "discoveryplus.com",
+      "aliases": [
+        "discovery+",
+        "discovery plus",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "ads",
+          "name": "Basic with ads",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "ad-free",
+          "name": "Ad-Free",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "fox-one",
+      "name": "Fox One",
+      "category": "video",
+      "color": "#0A2240",
+      "monogram": "FO",
+      "market": "global",
+      "logoDomain": "foxone.com",
+      "aliases": [
+        "fox one",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "fox-one",
+          "name": "Fox One",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 19.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "crave",
+      "name": "Crave",
+      "category": "video",
+      "color": "#0D1B3E",
+      "monogram": "Cv",
+      "market": "global",
+      "logoDomain": "crave.ca",
+      "aliases": [
+        "crave",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Ad-Free",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 15.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "now-tv",
+      "name": "NOW",
+      "category": "video",
+      "color": "#00E3B4",
+      "monogram": "NW",
+      "market": "global",
+      "logoDomain": "nowtv.com",
+      "aliases": [
+        "now",
+        "now tv",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "entertainment",
+          "name": "Entertainment",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "stan",
+      "name": "Stan",
+      "category": "video",
+      "color": "#0072FF",
+      "monogram": "Sn",
+      "market": "global",
+      "logoDomain": "stan.com.au",
+      "aliases": [
+        "stan",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "shahid",
+      "name": "Shahid",
+      "category": "video",
+      "color": "#1DB4A8",
+      "monogram": "Sd",
+      "market": "global",
+      "logoDomain": "shahid.mbc.net",
+      "aliases": [
+        "shahid",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "kocowa",
+      "name": "KOCOWA+",
+      "category": "video",
+      "color": "#E5007E",
+      "monogram": "Ko",
+      "market": "global",
+      "logoDomain": "kocowa.com",
+      "aliases": [
+        "kocowa+",
+        "kpop",
+        "phim han",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "KOCOWA+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "KOCOWA+ Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ondemandkorea",
+      "name": "OnDemandKorea",
+      "category": "video",
+      "color": "#FF4B4B",
+      "monogram": "OD",
+      "market": "global",
+      "logoDomain": "ondemandkorea.com",
+      "aliases": [
+        "ondemandkorea",
+        "odk",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "ODK Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "youtube-premium-lite",
+      "name": "YouTube Premium Lite",
+      "category": "video",
+      "color": "#FF1A1A",
+      "monogram": "YL",
+      "market": "global",
+      "logoDomain": "youtube.com",
+      "aliases": [
+        "youtube premium lite",
+        "youtube lite",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Premium Lite",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "vtvgo",
+      "name": "VTVgo",
+      "category": "video",
+      "color": "#E31E24",
+      "monogram": "VG",
+      "market": "vn",
+      "logoDomain": "vtvgo.vn",
+      "aliases": [
+        "vtvgo",
+        "vtv go",
+        "truyen hinh",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 30000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
       "id": "spotify",
       "name": "Spotify",
       "category": "music",
@@ -1069,7 +3045,11 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên spotify.com/vn-vi/premium và spotify.com/us/premium. VN chỉ có Individual 65.000đ và Student 33.000đ (không bán Duo/Family tại VN). US: 12.99 / Student 6.99 / Duo 18.99 / Family 21.99."
+      "note": "Đã đối chiếu 2026-11-05 trên spotify.com/vn-vi/premium và spotify.com/us/premium. VN chỉ có Individual 65.000đ và Student 33.000đ (không bán Duo/Family tại VN). US: 12.99 / Student 6.99 / Duo 18.99 / Family 21.99.",
+      "storeNames": [
+        "Spotify",
+        "Spotify Premium"
+      ]
     },
     {
       "id": "apple-music",
@@ -1163,7 +3143,10 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên apple.com/apple-music (US 11.99 / 19.99 / Student 6.99, cao hơn dữ liệu cũ) và apple.com/vn/apple-music (VN 65.000 / 99.000 / Student 35.000đ, khớp)."
+      "note": "Đã đối chiếu 2026-11-05 trên apple.com/apple-music (US 11.99 / 19.99 / Student 6.99, cao hơn dữ liệu cũ) và apple.com/vn/apple-music (VN 65.000 / 99.000 / Student 35.000đ, khớp).",
+      "storeNames": [
+        "Apple Music"
+      ]
     },
     {
       "id": "youtube-music",
@@ -1243,7 +3226,10 @@
           }
         }
       ],
-      "note": "VN đối chiếu 2026-11-05 trên music.youtube.com/music_premium: Individual 65.000, Family 99.000, Student 35.000đ (chưa gồm VAT; thứ tự gói suy từ vị trí trên trang). US 2026-11-05 (WebSearch): Individual 11.99 theo 9to5google/tomsguide (đợt tăng 04/2026; trang YouTube Music còn bản cache ghi 10.99). Family/Student US chưa đưa vào (nguồn mâu thuẫn)."
+      "note": "VN đối chiếu 2026-11-05 trên music.youtube.com/music_premium: Individual 65.000, Family 99.000, Student 35.000đ (chưa gồm VAT; thứ tự gói suy từ vị trí trên trang). US 2026-11-05 (WebSearch): Individual 11.99 theo 9to5google/tomsguide (đợt tăng 04/2026; trang YouTube Music còn bản cache ghi 10.99). Family/Student US chưa đưa vào (nguồn mâu thuẫn).",
+      "storeNames": [
+        "YouTube Music"
+      ]
     },
     {
       "id": "zing-mp3",
@@ -1353,7 +3339,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): tidal.com/pricing và support.tidal.com ghi Individual $11.99, Family $19.99 (6 người), Student $6.99/tháng, chưa gồm thuế."
+      "note": "2026-11-05 (WebSearch): tidal.com/pricing và support.tidal.com ghi Individual $11.99, Family $19.99 (6 người), Student $6.99/tháng, chưa gồm thuế.",
+      "storeNames": [
+        "TIDAL"
+      ]
     },
     {
       "id": "deezer",
@@ -1407,7 +3396,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): deezer.com/us/offers ghi Premium $11.99, Family $19.99 (6 tài khoản), Duo $15.99, Student $5.99; gói năm Premium $107.99, Family $218.99. Một số trang chính thức không có ngày cập nhật."
+      "note": "2026-11-05 (WebSearch): deezer.com/us/offers ghi Premium $11.99, Family $19.99 (6 tài khoản), Duo $15.99, Student $5.99; gói năm Premium $107.99, Family $218.99. Một số trang chính thức không có ngày cập nhật.",
+      "storeNames": [
+        "Deezer"
+      ]
     },
     {
       "id": "amazon-music",
@@ -1461,7 +3453,11 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): amazon.com/music/i/faq và trang Unlimited ghi Prime $11.99/tháng ($119/năm), không Prime $12.99/tháng; Family $21.99 (tối đa 6 người). Giá cũ 10.99/11.99 đã lỗi thời."
+      "note": "2026-11-05 (WebSearch): amazon.com/music/i/faq và trang Unlimited ghi Prime $11.99/tháng ($119/năm), không Prime $12.99/tháng; Family $21.99 (tối đa 6 người). Giá cũ 10.99/11.99 đã lỗi thời.",
+      "storeNames": [
+        "Amazon Music",
+        "Amazon Music Unlimited"
+      ]
     },
     {
       "id": "soundcloud",
@@ -1495,7 +3491,942 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): trung tâm trợ giúp ghi tăng giá Go+ sau 28/02/2026 nhưng không nêu số; trang checkout cho 11.99 và 5.99 (Student, \"giảm 50%\") nhưng các trang không ghi ngày nên mâu thuẫn với 10.99 -> giữ approx."
+      "note": "2026-11-05 (WebSearch): trung tâm trợ giúp ghi tăng giá Go+ sau 28/02/2026 nhưng không nêu số; trang checkout cho 11.99 và 5.99 (Student, \"giảm 50%\") nhưng các trang không ghi ngày nên mâu thuẫn với 10.99 -> giữ approx.",
+      "storeNames": [
+        "SoundCloud",
+        "SoundCloud Go+"
+      ]
+    },
+    {
+      "id": "pandora",
+      "name": "Pandora",
+      "category": "music",
+      "color": "#3668FF",
+      "monogram": "Pd",
+      "market": "global",
+      "logoDomain": "pandora.com",
+      "aliases": [
+        "pandora",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Pandora Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "premium",
+          "name": "Pandora Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "family",
+          "name": "Premium Family",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 17.99,
+              "method": "manual"
+            }
+          },
+          "members": 6
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "siriusxm",
+      "name": "SiriusXM",
+      "category": "music",
+      "color": "#0000EB",
+      "monogram": "SX",
+      "market": "global",
+      "logoDomain": "siriusxm.com",
+      "aliases": [
+        "siriusxm",
+        "sirius",
+        "radio",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "streaming",
+          "name": "Music Showcase",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "all-access",
+          "name": "All Access",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 24.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "iheartradio",
+      "name": "iHeartRadio",
+      "category": "music",
+      "color": "#C6002B",
+      "monogram": "iH",
+      "market": "global",
+      "logoDomain": "iheart.com",
+      "aliases": [
+        "iheartradio",
+        "iheart",
+        "radio",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "iHeart Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "all-access",
+          "name": "All Access",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "qobuz",
+      "name": "Qobuz",
+      "category": "music",
+      "color": "#000003",
+      "monogram": "Qb",
+      "market": "global",
+      "logoDomain": "qobuz.com",
+      "aliases": [
+        "qobuz",
+        "hi-res",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "studio",
+          "name": "Studio",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "studio-annual",
+          "name": "Studio Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 129.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "napster",
+      "name": "Napster",
+      "category": "music",
+      "color": "#1E1E1E",
+      "monogram": "Np",
+      "market": "global",
+      "logoDomain": "napster.com",
+      "aliases": [
+        "napster",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "audiomack",
+      "name": "Audiomack",
+      "category": "music",
+      "color": "#FFA200",
+      "monogram": "Am",
+      "market": "global",
+      "logoDomain": "audiomack.com",
+      "aliases": [
+        "audiomack",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "anghami",
+      "name": "Anghami",
+      "category": "music",
+      "color": "#8C22F2",
+      "monogram": "An",
+      "market": "global",
+      "logoDomain": "anghami.com",
+      "aliases": [
+        "anghami",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "jiosaavn",
+      "name": "JioSaavn",
+      "category": "music",
+      "color": "#2BC5B4",
+      "monogram": "JS",
+      "market": "global",
+      "logoDomain": "jiosaavn.com",
+      "aliases": [
+        "jiosaavn",
+        "saavn",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 3.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "gaana",
+      "name": "Gaana",
+      "category": "music",
+      "color": "#E72C30",
+      "monogram": "Ga",
+      "market": "global",
+      "logoDomain": "gaana.com",
+      "aliases": [
+        "gaana",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Gaana Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 1.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "boomplay",
+      "name": "Boomplay",
+      "category": "music",
+      "color": "#1A1A1A",
+      "monogram": "Bp",
+      "market": "global",
+      "logoDomain": "boomplay.com",
+      "aliases": [
+        "boomplay",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 2.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "idagio",
+      "name": "IDAGIO",
+      "category": "music",
+      "color": "#000004",
+      "monogram": "ID",
+      "market": "global",
+      "logoDomain": "idagio.com",
+      "aliases": [
+        "idagio",
+        "classical",
+        "nhac co dien",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "apple-music-classical",
+      "name": "Apple Music Classical",
+      "category": "music",
+      "color": "#FB2D48",
+      "monogram": "AC",
+      "market": "global",
+      "logoDomain": "apple.com",
+      "aliases": [
+        "apple music classical",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individual",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "musixmatch",
+      "name": "Musixmatch",
+      "category": "music",
+      "color": "#FF6050",
+      "monogram": "MX",
+      "market": "global",
+      "logoDomain": "musixmatch.com",
+      "aliases": [
+        "musixmatch",
+        "lyrics",
+        "loi bai hat",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 2.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "splice",
+      "name": "Splice",
+      "category": "music",
+      "color": "#000005",
+      "monogram": "Sp",
+      "market": "global",
+      "logoDomain": "splice.com",
+      "aliases": [
+        "splice",
+        "samples",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "sounds-plus",
+          "name": "Sounds+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "creator",
+          "name": "Creator",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 19.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "distrokid",
+      "name": "DistroKid",
+      "category": "music",
+      "color": "#3A3A3A",
+      "monogram": "DK",
+      "market": "global",
+      "logoDomain": "distrokid.com",
+      "aliases": [
+        "distrokid",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "musician",
+          "name": "Musician",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 24.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "musician-plus",
+          "name": "Musician Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 44.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "landr",
+      "name": "LANDR",
+      "category": "music",
+      "color": "#00C4A7",
+      "monogram": "LA",
+      "market": "global",
+      "logoDomain": "landr.com",
+      "aliases": [
+        "landr",
+        "mastering",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "studio",
+          "name": "Studio Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.5,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "moises",
+      "name": "Moises",
+      "category": "music",
+      "color": "#5C6AC4",
+      "monogram": "Mo",
+      "market": "global",
+      "logoDomain": "moises.ai",
+      "aliases": [
+        "moises",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ultimate-guitar",
+      "name": "Ultimate Guitar",
+      "category": "music",
+      "color": "#FFC600",
+      "monogram": "UG",
+      "market": "global",
+      "logoDomain": "ultimate-guitar.com",
+      "aliases": [
+        "ultimate guitar",
+        "guitar",
+        "hop am",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "yousician",
+      "name": "Yousician",
+      "category": "music",
+      "color": "#5AC341",
+      "monogram": "Ys",
+      "market": "global",
+      "logoDomain": "yousician.com",
+      "aliases": [
+        "yousician",
+        "hoc dan",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 139.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "simply-piano",
+      "name": "Simply Piano",
+      "category": "music",
+      "color": "#00B5E2",
+      "monogram": "SP",
+      "market": "global",
+      "logoDomain": "hellosimply.com",
+      "aliases": [
+        "simply piano",
+        "piano",
+        "hoc piano",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Simply Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 119.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "fender-play",
+      "name": "Fender Play",
+      "category": "music",
+      "color": "#C4161C",
+      "monogram": "FP",
+      "market": "global",
+      "logoDomain": "fender.com",
+      "aliases": [
+        "fender play",
+        "guitar",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Fender Play",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Fender Play Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 89.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "spotify-audiobooks",
+      "name": "Spotify Audiobooks+",
+      "category": "music",
+      "color": "#1ED760",
+      "monogram": "SA",
+      "market": "global",
+      "logoDomain": "spotify.com",
+      "aliases": [
+        "spotify audiobooks+",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "addon",
+          "name": "Audiobooks+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "nhaccuatui",
+      "name": "NhacCuaTui",
+      "category": "music",
+      "color": "#2DAAED",
+      "monogram": "NC",
+      "market": "vn",
+      "logoDomain": "nhaccuatui.com",
+      "aliases": [
+        "nhaccuatui",
+        "nct",
+        "nhac cua tui",
+        "nghe nhac"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 25000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
     },
     {
       "id": "chatgpt",
@@ -1608,7 +4539,13 @@
           }
         }
       ],
-      "note": "VN đối chiếu 2026-11-05 trên chatgpt.com/pricing (hiển thị VND): Go 132.000, Plus 522.500, Pro 100 = 2.849.000, Pro 200 = 5.225.000đ/tháng (nay có thêm Pro 100/200/500). US: Go $8 theo openai.com/index/introducing-chatgpt-go (2026-11-05, WebSearch); Plus $20 và Pro $200 giữ theo dữ liệu cũ (chưa kiểm lại trên trang giá)."
+      "note": "VN đối chiếu 2026-11-05 trên chatgpt.com/pricing (hiển thị VND): Go 132.000, Plus 522.500, Pro 100 = 2.849.000, Pro 200 = 5.225.000đ/tháng (nay có thêm Pro 100/200/500). US: Go $8 theo openai.com/index/introducing-chatgpt-go (2026-11-05, WebSearch); Plus $20 và Pro $200 giữ theo dữ liệu cũ (chưa kiểm lại trên trang giá).",
+      "storeNames": [
+        "ChatGPT",
+        "ChatGPT Plus",
+        "ChatGPT Pro",
+        "ChatGPT Go"
+      ]
     },
     {
       "id": "claude",
@@ -1699,7 +4636,12 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên claude.com/pricing: Pro $20/tháng ($200/năm), Max $100, Ultra $200. Giữ id cũ max-5x / max-20x để ổn định; tên hiển thị theo trang (Max, Ultra). Giá chưa gồm thuế."
+      "note": "Đã đối chiếu 2026-11-05 trên claude.com/pricing: Pro $20/tháng ($200/năm), Max $100, Ultra $200. Giữ id cũ max-5x / max-20x để ổn định; tên hiển thị theo trang (Max, Ultra). Giá chưa gồm thuế.",
+      "storeNames": [
+        "Claude",
+        "Claude Pro",
+        "Claude Max"
+      ]
     },
     {
       "id": "gemini",
@@ -1820,7 +4762,14 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên gemini.google/vn/subscriptions và gemini.google/us/subscriptions: VN Plus 132.000, Pro 489.000, Ultra 5x 2.250.000, Ultra 20x 5.500.000đ; US Plus 4.99, Pro 19.99, Ultra 5x 99.99, Ultra 20x 199.99. Gói Google AI Pro tại VN kèm 5 TB (xem Google One)."
+      "note": "Đã đối chiếu 2026-11-05 trên gemini.google/vn/subscriptions và gemini.google/us/subscriptions: VN Plus 132.000, Pro 489.000, Ultra 5x 2.250.000, Ultra 20x 5.500.000đ; US Plus 4.99, Pro 19.99, Ultra 5x 99.99, Ultra 20x 199.99. Gói Google AI Pro tại VN kèm 5 TB (xem Google One).",
+      "storeNames": [
+        "Google One",
+        "Google AI Pro",
+        "Google AI Plus",
+        "Google AI Ultra",
+        "Gemini"
+      ]
     },
     {
       "id": "copilot",
@@ -1855,7 +4804,11 @@
           }
         }
       ],
-      "note": "Từ 10/2025 Microsoft đẩy người dùng mới sang Microsoft 365 Premium ($19.99/tháng, xem dịch vụ microsoft-365); Copilot Pro không còn bán mới (nhiều nguồn, 2026-11-05). Giữ gói cũ ở approx vì không còn trang giá chính thức."
+      "note": "Từ 10/2025 Microsoft đẩy người dùng mới sang Microsoft 365 Premium ($19.99/tháng, xem dịch vụ microsoft-365); Copilot Pro không còn bán mới (nhiều nguồn, 2026-11-05). Giữ gói cũ ở approx vì không còn trang giá chính thức.",
+      "storeNames": [
+        "Microsoft Copilot",
+        "Copilot Pro"
+      ]
     },
     {
       "id": "midjourney",
@@ -2052,6 +5005,10 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "Perplexity",
+        "Perplexity Pro"
       ]
     },
     {
@@ -2089,7 +5046,11 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): x.ai/pricing + x.ai/news/x-subscription — từ 10/2026 Grok bán qua \"The X Subscription\": Plus $8, Premium $30 (gồm SuperGrok + Cursor Pro + X Premium+), Super $100, Ultra $200; gói SuperGrok cũ giữ nguyên giá cho người đang dùng ($30). Giữ gói \"SuperGrok\" = $30 (tương đương Premium)."
+      "note": "2026-11-05 (WebSearch): x.ai/pricing + x.ai/news/x-subscription — từ 10/2026 Grok bán qua \"The X Subscription\": Plus $8, Premium $30 (gồm SuperGrok + Cursor Pro + X Premium+), Super $100, Ultra $200; gói SuperGrok cũ giữ nguyên giá cho người đang dùng ($30). Giữ gói \"SuperGrok\" = $30 (tương đương Premium).",
+      "storeNames": [
+        "Grok",
+        "SuperGrok"
+      ]
     },
     {
       "id": "cursor",
@@ -2473,7 +5434,10 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên support.apple.com/vi-vn/108047 (VN 25.000 / 89.000 / 299.000 / 899.000 / 1.799.000đ) và /en-us/108047 (US 0.99 / 2.99 / 9.99 / 29.99 / 59.99). Giá VN đã gồm thuế."
+      "note": "Đã đối chiếu 2026-11-05 trên support.apple.com/vi-vn/108047 (VN 25.000 / 89.000 / 299.000 / 899.000 / 1.799.000đ) và /en-us/108047 (US 0.99 / 2.99 / 9.99 / 29.99 / 59.99). Giá VN đã gồm thuế.",
+      "storeNames": [
+        "iCloud+"
+      ]
     },
     {
       "id": "google-one",
@@ -2594,7 +5558,10 @@
           }
         }
       ],
-      "note": "VN đối chiếu 2026-11-05 trên one.google.com/about/plans: Lite 30 GB 19.000, Basic 100 GB 45.000, Google AI Pro 5 TB 489.000đ/tháng (không thấy gói 2 TB tại VN; xem dịch vụ Gemini cho gói AI Pro). Trang không cho chọn vùng nên giá US chưa kiểm lại."
+      "note": "VN đối chiếu 2026-11-05 trên one.google.com/about/plans: Lite 30 GB 19.000, Basic 100 GB 45.000, Google AI Pro 5 TB 489.000đ/tháng (không thấy gói 2 TB tại VN; xem dịch vụ Gemini cho gói AI Pro). Trang không cho chọn vùng nên giá US chưa kiểm lại.",
+      "storeNames": [
+        "Google One"
+      ]
     },
     {
       "id": "dropbox",
@@ -2646,6 +5613,10 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "Dropbox",
+        "Dropbox Plus"
       ]
     },
     {
@@ -2828,7 +5799,12 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05: US trên microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products (Personal 9.99/99.99, Family 12.99/129.99, Premium 19.99/199.99); VN trên trang Microsoft 365 Family vi-vn (260.000đ/tháng, 2.599.000đ/năm)."
+      "note": "Đã đối chiếu 2026-11-05: US trên microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products (Personal 9.99/99.99, Family 12.99/129.99, Premium 19.99/199.99); VN trên trang Microsoft 365 Family vi-vn (260.000đ/tháng, 2.599.000đ/năm).",
+      "storeNames": [
+        "Microsoft 365",
+        "Microsoft 365 Personal",
+        "Microsoft 365 Family"
+      ]
     },
     {
       "id": "zcloud",
@@ -3019,7 +5995,11 @@
           }
         }
       ],
-      "note": "VN đối chiếu 2026-11-05 trên canva.com/pricing (hiển thị VND): Pro 150.000đ/tháng hoặc 1.300.000đ/năm (Business 210.000đ/tháng). US không xem được từ IP Việt Nam, giữ giá cũ."
+      "note": "VN đối chiếu 2026-11-05 trên canva.com/pricing (hiển thị VND): Pro 150.000đ/tháng hoặc 1.300.000đ/năm (Business 210.000đ/tháng). US không xem được từ IP Việt Nam, giữ giá cũ.",
+      "storeNames": [
+        "Canva",
+        "Canva Pro"
+      ]
     },
     {
       "id": "adobe-cc",
@@ -3200,7 +6180,10 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên notion.com/pricing: Plus $12/tháng ($10/tháng nếu trả năm), Business $24/tháng ($20/tháng nếu trả năm = $240/năm), giá trên mỗi chỗ ngồi."
+      "note": "Đã đối chiếu 2026-11-05 trên notion.com/pricing: Plus $12/tháng ($10/tháng nếu trả năm), Business $24/tháng ($20/tháng nếu trả năm = $240/năm), giá trên mỗi chỗ ngồi.",
+      "storeNames": [
+        "Notion"
+      ]
     },
     {
       "id": "1password",
@@ -3255,6 +6238,9 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "1Password"
       ]
     },
     {
@@ -3347,7 +6333,10 @@
           }
         }
       ],
-      "note": "Gói năm/2 năm thường có giá khuyến mãi lần đầu, gia hạn cao hơn. 2026-11-05 (WebSearch): nordvpn.com/pricing ghi Basic $14.99/tháng (trả tháng); blog NordVPN còn bản ghi $12.99 nhưng trang giá và bài so sánh 07/2026 đều $14.99."
+      "note": "Gói năm/2 năm thường có giá khuyến mãi lần đầu, gia hạn cao hơn. 2026-11-05 (WebSearch): nordvpn.com/pricing ghi Basic $14.99/tháng (trả tháng); blog NordVPN còn bản ghi $12.99 nhưng trang giá và bài so sánh 07/2026 đều $14.99.",
+      "storeNames": [
+        "NordVPN"
+      ]
     },
     {
       "id": "expressvpn",
@@ -3384,7 +6373,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): expressvpn.com/order-pricing ghi gói 1 tháng $12.95/tháng (hoàn tiền 30 ngày); gói 12/24 tháng rẻ hơn."
+      "note": "2026-11-05 (WebSearch): expressvpn.com/order-pricing ghi gói 1 tháng $12.95/tháng (hoàn tiền 30 ngày); gói 12/24 tháng rẻ hơn.",
+      "storeNames": [
+        "ExpressVPN"
+      ]
     },
     {
       "id": "surfshark",
@@ -3418,7 +6410,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): blog surfshark.com/blog/surfshark-vpn-plans (cập nhật ~10/2026) ghi gói tháng Starter $16.45; blog cheapest-monthly-vpn còn ghi $15.45 -> hai trang chính thức mâu thuẫn nên giữ approx (lấy số mới hơn)."
+      "note": "2026-11-05 (WebSearch): blog surfshark.com/blog/surfshark-vpn-plans (cập nhật ~10/2026) ghi gói tháng Starter $16.45; blog cheapest-monthly-vpn còn ghi $15.45 -> hai trang chính thức mâu thuẫn nên giữ approx (lấy số mới hơn).",
+      "storeNames": [
+        "Surfshark"
+      ]
     },
     {
       "id": "grammarly",
@@ -3472,7 +6467,10 @@
           }
         }
       ],
-      "note": "2026-11-05: support.grammarly.com \"How much does Grammarly Pro cost\" ghi $30/tháng, $60/quý, $144/năm (trung bình $12/tháng)."
+      "note": "2026-11-05: support.grammarly.com \"How much does Grammarly Pro cost\" ghi $30/tháng, $60/quý, $144/năm (trung bình $12/tháng).",
+      "storeNames": [
+        "Grammarly"
+      ]
     },
     {
       "id": "figma",
@@ -3567,7 +6565,11 @@
           }
         }
       ],
-      "note": "Giá theo vùng và đổi thường xuyên; nguồn VN mâu thuẫn (199.000–290.000đ/tháng) -> VN giữ approx. US 2026-11-05 (WebSearch): capcut.com/pricing ghi Pro $19.99/tháng, $179.99/năm; CapCut đã tái cấu trúc Pro (1TB lưu trữ)."
+      "note": "Giá theo vùng và đổi thường xuyên; nguồn VN mâu thuẫn (199.000–290.000đ/tháng) -> VN giữ approx. US 2026-11-05 (WebSearch): capcut.com/pricing ghi Pro $19.99/tháng, $179.99/năm; CapCut đã tái cấu trúc Pro (1TB lưu trữ).",
+      "storeNames": [
+        "CapCut",
+        "CapCut Pro"
+      ]
     },
     {
       "id": "zoom",
@@ -3895,6 +6897,56 @@
       "note": "2026-11-05 (WebSearch): bkav.com/dat-mua ghi Thẻ Bkav Pro 299.000đ/1 năm (trang không ghi ngày); đại lý (Hacom) từng niêm yết 189.000đ -> dùng giá hãng nhưng giữ approx."
     },
     {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "category": "software",
+      "color": "#1AB7EA",
+      "monogram": "Vm",
+      "market": "global",
+      "logoDomain": "vimeo.com",
+      "aliases": [
+        "vimeo",
+        "phan mem"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "starter",
+          "name": "Starter",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 20,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "standard",
+          "name": "Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 41,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
       "id": "xbox-game-pass",
       "name": "Xbox Game Pass",
       "category": "gaming",
@@ -3984,7 +7036,10 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên xbox.com/en-US/xbox-game-pass: Essential 9.99, Premium 14.99, Ultimate 22.99, PC 13.99. Chưa có trang VN (404)."
+      "note": "Đã đối chiếu 2026-11-05 trên xbox.com/en-US/xbox-game-pass: Essential 9.99, Premium 14.99, Ultimate 22.99, PC 13.99. Chưa có trang VN (404).",
+      "storeNames": [
+        "Xbox Game Pass"
+      ]
     },
     {
       "id": "playstation-plus",
@@ -4112,7 +7167,10 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên playstation.com/en-us/ps-plus: Essential 10.99 (12 tháng 79.99), Extra 16.99 (134.99), Premium 19.99 (159.99). Không có PlayStation Store chính thức cho VN."
+      "note": "Đã đối chiếu 2026-11-05 trên playstation.com/en-us/ps-plus: Essential 10.99 (12 tháng 79.99), Extra 16.99 (134.99), Premium 19.99 (159.99). Không có PlayStation Store chính thức cho VN.",
+      "storeNames": [
+        "PlayStation Plus"
+      ]
     },
     {
       "id": "nintendo-switch-online",
@@ -4240,6 +7298,9 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "Nintendo Switch Online"
       ]
     },
     {
@@ -4276,7 +7337,10 @@
           }
         }
       ],
-      "note": "Giá VN chưa xác minh."
+      "note": "Giá VN chưa xác minh.",
+      "storeNames": [
+        "Apple Arcade"
+      ]
     },
     {
       "id": "google-play-pass",
@@ -4330,6 +7394,9 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "Google Play Pass"
       ]
     },
     {
@@ -4655,7 +7722,47 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "Discord",
+        "Discord Nitro"
       ]
+    },
+    {
+      "id": "twitch-turbo",
+      "name": "Twitch Turbo",
+      "category": "gaming",
+      "color": "#9146FF",
+      "monogram": "Tw",
+      "market": "global",
+      "logoDomain": "twitch.tv",
+      "aliases": [
+        "twitch",
+        "turbo"
+      ],
+      "cancelUrl": "https://www.twitch.tv/subscriptions",
+      "manageUrl": "https://www.twitch.tv/subscriptions",
+      "plans": [
+        {
+          "id": "turbo",
+          "name": "Turbo",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "verifiedAt": "2026-11-05",
+              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#twitch-turbo",
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "2026-11-05 (WebSearch): twitch.tv/turbo ghi $11.99/tháng (mua trên web, vùng không có giá địa phương); mua qua app có thể đắt hơn."
     },
     {
       "id": "kindle-unlimited",
@@ -4692,6 +7799,9 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "Kindle Unlimited"
       ]
     },
     {
@@ -4747,7 +7857,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): audible.com/about/newsroom (gói Standard) và audible.com/ep/memberbenefits ghi Standard $8.99/tháng (1 tựa/tháng, không credit); Premium Plus $14.95/tháng (1 credit)."
+      "note": "2026-11-05 (WebSearch): audible.com/about/newsroom (gói Standard) và audible.com/ep/memberbenefits ghi Standard $8.99/tháng (1 tựa/tháng, không credit); Premium Plus $14.95/tháng (1 credit).",
+      "storeNames": [
+        "Audible"
+      ]
     },
     {
       "id": "medium",
@@ -4835,7 +7948,10 @@
           }
         }
       ],
-      "note": "Không có tại VN."
+      "note": "Không có tại VN.",
+      "storeNames": [
+        "Apple News+"
+      ]
     },
     {
       "id": "nytimes",
@@ -4909,6 +8025,78 @@
       "note": "App ghi 'chỉ từ 2.000đ/ngày'; giá gói tháng/năm chưa xác minh."
     },
     {
+      "id": "everand",
+      "name": "Everand (Scribd)",
+      "category": "reading",
+      "color": "#1E7B85",
+      "monogram": "Er",
+      "market": "global",
+      "logoDomain": "everand.com",
+      "aliases": [
+        "scribd",
+        "everand",
+        "ebook",
+        "sach dien tu"
+      ],
+      "cancelUrl": "https://www.everand.com/account-settings",
+      "manageUrl": "https://www.everand.com/account-settings",
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Everand",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "verifiedAt": "2026-11-05",
+              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#everand",
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "2026-11-05 (WebSearch): everand.com/blog/new-plans-and-pricing ghi Standard $11.99, Plus $16.99, Deluxe $28.99 mỗi tháng; catalog dùng gói Standard."
+    },
+    {
+      "id": "blinkist",
+      "name": "Blinkist",
+      "category": "reading",
+      "color": "#2CE080",
+      "monogram": "Bl",
+      "market": "global",
+      "logoDomain": "blinkist.com",
+      "aliases": [
+        "blinkist",
+        "tom tat sach"
+      ],
+      "cancelUrl": "https://www.blinkist.com/en/nc/settings",
+      "manageUrl": "https://www.blinkist.com/en/nc/settings",
+      "plans": [
+        {
+          "id": "premium-annual",
+          "name": "Premium (annual)",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 99.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "2026-11-05 (WebSearch): blinkist.com/pricing mâu thuẫn ($79.99 ưu đãi / $99.99 gốc / gia hạn $174.99) -> approx."
+    },
+    {
       "id": "strava",
       "name": "Strava",
       "category": "health",
@@ -4960,6 +8148,9 @@
             }
           }
         }
+      ],
+      "storeNames": [
+        "Strava"
       ]
     },
     {
@@ -5013,7 +8204,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): help.headspace.com ghi Solo $69.99/năm, Family $99.99/năm; không tìm thấy giá gói tháng ($12.99 cũ) -> tháng giữ approx."
+      "note": "2026-11-05 (WebSearch): help.headspace.com ghi Solo $69.99/năm, Family $99.99/năm; không tìm thấy giá gói tháng ($12.99 cũ) -> tháng giữ approx.",
+      "storeNames": [
+        "Headspace"
+      ]
     },
     {
       "id": "calm",
@@ -5066,7 +8260,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): calm.com/freetrial/plans và calm.com/calm-annual-offer ghi $79.99/năm; Family $119.99/năm. Calm có trang \"Pricing Update\" nhưng không nêu số; giá tháng không tìm thấy -> tháng giữ approx."
+      "note": "2026-11-05 (WebSearch): calm.com/freetrial/plans và calm.com/calm-annual-offer ghi $79.99/năm; Family $119.99/năm. Calm có trang \"Pricing Update\" nhưng không nêu số; giá tháng không tìm thấy -> tháng giữ approx.",
+      "storeNames": [
+        "Calm"
+      ]
     },
     {
       "id": "myfitnesspal",
@@ -5121,7 +8318,10 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): myfitnesspal.com/premium + blog.myfitnesspal.com (2026) ghi Premium $19.99/tháng, $79.99/năm; Premium+ $24.99 / $99.99."
+      "note": "2026-11-05 (WebSearch): myfitnesspal.com/premium + blog.myfitnesspal.com (2026) ghi Premium $19.99/tháng, $79.99/năm; Premium+ $24.99 / $99.99.",
+      "storeNames": [
+        "MyFitnessPal"
+      ]
     },
     {
       "id": "apple-fitness-plus",
@@ -5177,7 +8377,10 @@
           }
         }
       ],
-      "note": "Không có tại VN."
+      "note": "Không có tại VN.",
+      "storeNames": [
+        "Apple Fitness+"
+      ]
     },
     {
       "id": "fitbit-premium",
@@ -5232,6 +8435,58 @@
         }
       ],
       "note": "2026-11-05 (WebSearch): fitbit.com/global/us/products/services/premium + community.fitbit.com ghi $9.99/tháng, $79.99/năm. Google store đã đổi tên \"Google Health Premium\"; số chưa đổi."
+    },
+    {
+      "id": "peloton-app",
+      "name": "Peloton App",
+      "category": "health",
+      "color": "#181A1D",
+      "monogram": "Pe",
+      "market": "global",
+      "logoDomain": "onepeloton.com",
+      "aliases": [
+        "peloton",
+        "tap the duc"
+      ],
+      "cancelUrl": "https://members.onepeloton.com/preferences/subscriptions",
+      "manageUrl": "https://members.onepeloton.com/preferences/subscriptions",
+      "plans": [
+        {
+          "id": "app-one",
+          "name": "App One",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 15.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "app-plus",
+          "name": "App+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 28.99,
+              "verifiedAt": "2026-11-05",
+              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#peloton-app",
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "2026-11-05 (WebSearch): support.onepeloton.com (\"Membership Fee Changes\") và onepeloton.com/app-membership ghi App+ $28.99/tháng (từ 01/10/2025). App One: nguồn mới nhất chỉ thấy $12.99 (nguồn cũ) hoặc $0 (khuyến mãi) — không xác nhận được $15.99 -> approx."
     },
     {
       "id": "duolingo",
@@ -5315,7 +8570,11 @@
           }
         }
       ],
-      "note": "VN suy từ giá quy tháng của gói năm (49.917đ × 12); giá thực tế thay đổi theo khuyến mãi. 2026-11-05: duolingo.com/super không hiển thị giá khi chưa đăng nhập; các trang tổng hợp ghi US $12.99/tháng, $84/năm nhưng mâu thuẫn ($83.88–95.99) -> giữ approx."
+      "note": "VN suy từ giá quy tháng của gói năm (49.917đ × 12); giá thực tế thay đổi theo khuyến mãi. 2026-11-05: duolingo.com/super không hiển thị giá khi chưa đăng nhập; các trang tổng hợp ghi US $12.99/tháng, $84/năm nhưng mâu thuẫn ($83.88–95.99) -> giữ approx.",
+      "storeNames": [
+        "Duolingo",
+        "Super Duolingo"
+      ]
     },
     {
       "id": "coursera",
@@ -6031,7 +9290,10 @@
           }
         }
       ],
-      "note": "Đã đối chiếu 2026-11-05 trên apple.com/apple-one (US 21.95 / 27.95 / 39.95) và apple.com/vn/apple-one (VN chỉ có Individual 239.000đ và Family 279.000đ; không có Premier)."
+      "note": "Đã đối chiếu 2026-11-05 trên apple.com/apple-one (US 21.95 / 27.95 / 39.95) và apple.com/vn/apple-one (VN chỉ có Individual 239.000đ và Family 279.000đ; không có Premier).",
+      "storeNames": [
+        "Apple One"
+      ]
     },
     {
       "id": "x-premium",
@@ -6099,7 +9361,11 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): help.x.com/en/using-x/x-premium-faq ghi Basic $3, Premium $8, Premium+ $40 (web) nhưng X đang chuyển sang \"The X Subscription\" (Plus $8, Premium $30, Super $100, Ultra $200) từ 10/2026 -> cơ cấu gói đổi nên giữ approx."
+      "note": "2026-11-05 (WebSearch): help.x.com/en/using-x/x-premium-faq ghi Basic $3, Premium $8, Premium+ $40 (web) nhưng X đang chuyển sang \"The X Subscription\" (Plus $8, Premium $30, Super $100, Ultra $200) từ 10/2026 -> cơ cấu gói đổi nên giữ approx.",
+      "storeNames": [
+        "X",
+        "X Premium"
+      ]
     },
     {
       "id": "telegram-premium",
@@ -6148,7 +9414,11 @@
           }
         }
       ],
-      "note": "2026-11-05: telegram.org/faq_premium không nêu giá USD (giá theo mã vùng số điện thoại và kênh mua) -> approx."
+      "note": "2026-11-05: telegram.org/faq_premium không nêu giá USD (giá theo mã vùng số điện thoại và kênh mua) -> approx.",
+      "storeNames": [
+        "Telegram",
+        "Telegram Premium"
+      ]
     },
     {
       "id": "uber-one",
@@ -6256,7 +9526,11 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): premium.linkedin.com/careers/career ghi Career từ US$39.99/tháng ($239.88/năm), premium.linkedin.com/small-business/business ghi Business từ US$69.99/tháng ($539.88/năm). Giá cũ 29.99/59.99 đã lỗi thời. Mua qua app đắt hơn."
+      "note": "2026-11-05 (WebSearch): premium.linkedin.com/careers/career ghi Career từ US$39.99/tháng ($239.88/năm), premium.linkedin.com/small-business/business ghi Business từ US$69.99/tháng ($539.88/năm). Giá cũ 29.99/59.99 đã lỗi thời. Mua qua app đắt hơn.",
+      "storeNames": [
+        "LinkedIn",
+        "LinkedIn Premium"
+      ]
     },
     {
       "id": "snapchat-plus",
@@ -6309,26 +9583,31 @@
           }
         }
       ],
-      "note": "2026-11-05 (WebSearch): TechCrunch 2022-06 và 2026-02-18 ghi Snapchat+ $3.99/tháng (gồm 250GB Memories); giá năm $29.99 chưa xác nhận -> approx. Lens+ $8.99, Platinum ~$15.99 chưa đưa vào."
+      "note": "2026-11-05 (WebSearch): TechCrunch 2022-06 và 2026-02-18 ghi Snapchat+ $3.99/tháng (gồm 250GB Memories); giá năm $29.99 chưa xác nhận -> approx. Lens+ $8.99, Platinum ~$15.99 chưa đưa vào.",
+      "storeNames": [
+        "Snapchat",
+        "Snapchat+"
+      ]
     },
     {
-      "id": "youtube-tv",
-      "name": "YouTube TV",
-      "category": "video",
-      "color": "#FF0033",
-      "monogram": "YV",
+      "id": "patreon",
+      "name": "Patreon",
+      "category": "other",
+      "color": "#FF424D",
+      "monogram": "Pa",
       "market": "global",
-      "logoDomain": "tv.youtube.com",
+      "logoDomain": "patreon.com",
       "aliases": [
-        "youtube tv",
-        "live tv"
+        "patreon",
+        "creator",
+        "ung ho"
       ],
-      "cancelUrl": "https://tv.youtube.com/settings/membership",
-      "manageUrl": "https://tv.youtube.com/settings/membership",
+      "cancelUrl": null,
+      "manageUrl": null,
       "plans": [
         {
-          "id": "base",
-          "name": "Base Plan",
+          "id": "membership",
+          "name": "Membership",
           "status": "active",
           "cycle": {
             "unit": "month",
@@ -6337,175 +9616,13 @@
           "prices": {
             "US": {
               "currency": "USD",
-              "amount": 82.99,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#youtube-tv",
+              "amount": 5,
               "method": "manual"
             }
           }
         }
       ],
-      "note": "Chỉ có tại Mỹ. 2026-11-05: tv.youtube.com/learn/explore-plans ghi Base Plan $82.99/tháng (khuyến mãi tháng đầu $59.99; chưa gồm thuế); có thêm gói Sports $64.99, Entertainment $54.99."
-    },
-    {
-      "id": "twitch-turbo",
-      "name": "Twitch Turbo",
-      "category": "gaming",
-      "color": "#9146FF",
-      "monogram": "Tw",
-      "market": "global",
-      "logoDomain": "twitch.tv",
-      "aliases": [
-        "twitch",
-        "turbo"
-      ],
-      "cancelUrl": "https://www.twitch.tv/subscriptions",
-      "manageUrl": "https://www.twitch.tv/subscriptions",
-      "plans": [
-        {
-          "id": "turbo",
-          "name": "Turbo",
-          "status": "active",
-          "cycle": {
-            "unit": "month",
-            "count": 1
-          },
-          "prices": {
-            "US": {
-              "currency": "USD",
-              "amount": 11.99,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#twitch-turbo",
-              "method": "manual"
-            }
-          }
-        }
-      ],
-      "note": "2026-11-05 (WebSearch): twitch.tv/turbo ghi $11.99/tháng (mua trên web, vùng không có giá địa phương); mua qua app có thể đắt hơn."
-    },
-    {
-      "id": "peloton-app",
-      "name": "Peloton App",
-      "category": "health",
-      "color": "#181A1D",
-      "monogram": "Pe",
-      "market": "global",
-      "logoDomain": "onepeloton.com",
-      "aliases": [
-        "peloton",
-        "tap the duc"
-      ],
-      "cancelUrl": "https://members.onepeloton.com/preferences/subscriptions",
-      "manageUrl": "https://members.onepeloton.com/preferences/subscriptions",
-      "plans": [
-        {
-          "id": "app-one",
-          "name": "App One",
-          "status": "active",
-          "cycle": {
-            "unit": "month",
-            "count": 1
-          },
-          "prices": {
-            "US": {
-              "currency": "USD",
-              "amount": 15.99,
-              "method": "manual"
-            }
-          }
-        },
-        {
-          "id": "app-plus",
-          "name": "App+",
-          "status": "active",
-          "cycle": {
-            "unit": "month",
-            "count": 1
-          },
-          "prices": {
-            "US": {
-              "currency": "USD",
-              "amount": 28.99,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#peloton-app",
-              "method": "manual"
-            }
-          }
-        }
-      ],
-      "note": "2026-11-05 (WebSearch): support.onepeloton.com (\"Membership Fee Changes\") và onepeloton.com/app-membership ghi App+ $28.99/tháng (từ 01/10/2025). App One: nguồn mới nhất chỉ thấy $12.99 (nguồn cũ) hoặc $0 (khuyến mãi) — không xác nhận được $15.99 -> approx."
-    },
-    {
-      "id": "everand",
-      "name": "Everand (Scribd)",
-      "category": "reading",
-      "color": "#1E7B85",
-      "monogram": "Er",
-      "market": "global",
-      "logoDomain": "everand.com",
-      "aliases": [
-        "scribd",
-        "everand",
-        "ebook",
-        "sach dien tu"
-      ],
-      "cancelUrl": "https://www.everand.com/account-settings",
-      "manageUrl": "https://www.everand.com/account-settings",
-      "plans": [
-        {
-          "id": "monthly",
-          "name": "Everand",
-          "status": "active",
-          "cycle": {
-            "unit": "month",
-            "count": 1
-          },
-          "prices": {
-            "US": {
-              "currency": "USD",
-              "amount": 11.99,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#everand",
-              "method": "manual"
-            }
-          }
-        }
-      ],
-      "note": "2026-11-05 (WebSearch): everand.com/blog/new-plans-and-pricing ghi Standard $11.99, Plus $16.99, Deluxe $28.99 mỗi tháng; catalog dùng gói Standard."
-    },
-    {
-      "id": "blinkist",
-      "name": "Blinkist",
-      "category": "reading",
-      "color": "#2CE080",
-      "monogram": "Bl",
-      "market": "global",
-      "logoDomain": "blinkist.com",
-      "aliases": [
-        "blinkist",
-        "tom tat sach"
-      ],
-      "cancelUrl": "https://www.blinkist.com/en/nc/settings",
-      "manageUrl": "https://www.blinkist.com/en/nc/settings",
-      "plans": [
-        {
-          "id": "premium-annual",
-          "name": "Premium (annual)",
-          "status": "active",
-          "cycle": {
-            "unit": "year",
-            "count": 1
-          },
-          "prices": {
-            "US": {
-              "currency": "USD",
-              "amount": 99.99,
-              "method": "manual"
-            }
-          }
-        }
-      ],
-      "note": "2026-11-05 (WebSearch): blinkist.com/pricing mâu thuẫn ($79.99 ưu đãi / $99.99 gốc / gia hạn $174.99) -> approx."
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
     }
   ]
 }

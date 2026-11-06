@@ -32,7 +32,7 @@ ZERO_DECIMAL = {"VND", "JPY", "KRW", "IDR"}
 ROOT_REQ = {"schemaVersion", "version", "updatedAt", "staleAfterDays", "regions", "services"}
 SERVICE_REQ = {"id", "name", "category", "color", "monogram", "market", "logoDomain", "aliases", "cancelUrl",
                "manageUrl", "plans"}
-SERVICE_OPT = {"note"}
+SERVICE_OPT = {"note", "storeNames"}
 PLAN_REQ = {"id", "name", "status", "cycle", "prices"}
 PLAN_OPT = {"members", "renamedFrom"}
 PRICE_REQ = {"currency", "amount", "method"}
@@ -136,6 +136,10 @@ def validate(data, published=None, on: str | None = None):
         for k in ("cancelUrl", "manageUrl"):
             if k in s and s[k] is not None and not is_https(s[k]):
                 errors.append(f"{w}: {k} must be an https URL or null")
+        sn = s.get("storeNames")
+        if "storeNames" in s and not (isinstance(sn, list) and sn and len(set(sn)) == len(sn)
+                                      and all(isinstance(x, str) and x.strip() == x and x for x in sn)):
+            errors.append(f"{w}: storeNames must be a non-empty array of unique, trimmed strings")
         if "note" in s and not isinstance(s["note"], str):
             errors.append(f"{w}: note must be a string")
         plans = s.get("plans")

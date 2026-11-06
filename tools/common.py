@@ -19,7 +19,7 @@ REPORTS = ROOT / "reports"
 
 SCHEMA_VERSION = 4
 STALE_AFTER_DAYS = 90
-REGIONS = {"VN": "VND", "US": "USD", "UK": "GBP", "AU": "AUD", "CA": "CAD", "IN": "INR"}
+REGIONS = {"US": "USD", "VN": "VND"}
 METHODS = ("aristocles", "vn-parser", "manual")
 PLAN_STATUSES = ("active", "closed_to_new", "discontinued")
 PAGES_BASE = "https://phamphuongphuongnd.github.io/catalog"
