@@ -1,19 +1,19 @@
 {
   "schemaVersion": 4,
-  "version": 11,
+  "version": 12,
   "updatedAt": "2026-11-06",
   "services": 500,
   "plans": 725,
   "prices": 765,
   "files": {
     "services.min.json": {
-      "sha256": "930bacb24d82eec2051d345c7ccc7f9847db72e2ab9f7313b1eabfdce28abc64",
-      "bytes": 280909,
+      "sha256": "2b4912dd2b3d160580ec6545bf766dad60e641ec11ad7548d9395c38319ef02b",
+      "bytes": 280500,
       "url": "https://phamphuongphuongnd.github.io/catalog/subnest/v1/services.min.json"
     },
     "services.json": {
-      "sha256": "b70d0960be0830316890eef2d45caacbf949700f2155d13c4d8f9f90ecce6071",
-      "bytes": 577370,
+      "sha256": "d11379e8a9bb6967d90e4681d38545aa9047dc994d8a8da83a179d6d76b5b8b6",
+      "bytes": 576961,
       "url": "https://phamphuongphuongnd.github.io/catalog/subnest/v1/services.json"
     }
   }

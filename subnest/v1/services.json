@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "version": 11,
+  "version": 12,
   "updatedAt": "2026-11-06",
   "staleAfterDays": 90,
   "regions": {
@@ -36,9 +36,9 @@
             "VN": {
               "currency": "VND",
               "amount": 74000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#netflix",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.netflix.com/vi/node/24926/vn",
+              "method": "vn-parser"
             }
           }
         },
@@ -72,9 +72,9 @@
             "VN": {
               "currency": "VND",
               "amount": 114000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#netflix",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.netflix.com/vi/node/24926/vn",
+              "method": "vn-parser"
             }
           }
         },
@@ -90,9 +90,9 @@
             "VN": {
               "currency": "VND",
               "amount": 231000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#netflix",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.netflix.com/vi/node/24926/vn",
+              "method": "vn-parser"
             },
             "US": {
               "currency": "USD",
@@ -115,9 +115,9 @@
             "VN": {
               "currency": "VND",
               "amount": 273000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#netflix",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://help.netflix.com/vi/node/24926/vn",
+              "method": "vn-parser"
             },
             "US": {
               "currency": "USD",
@@ -3150,9 +3150,9 @@
             "VN": {
               "currency": "VND",
               "amount": 65000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#spotify",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.spotify.com/vn-vi/premium/",
+              "method": "vn-parser"
             },
             "US": {
               "currency": "USD",
@@ -18461,9 +18461,9 @@
             "VN": {
               "currency": "VND",
               "amount": 799000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#monkey-junior",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://monkey.edu.vn/san-pham/monkey-junior",
+              "method": "vn-parser"
             }
           }
         },
@@ -19732,9 +19732,9 @@
             "VN": {
               "currency": "VND",
               "amount": 120000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#vinaphone",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://vnpt.vn/4g/big120",
+              "method": "vn-parser"
             }
           }
         }
@@ -19788,9 +19788,9 @@
             "VN": {
               "currency": "VND",
               "amount": 135000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#mobifone",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://www.mobifone.vn/dich-vu-di-dong/chi-tiet-goi-cuoc/tk135-TK135",
+              "method": "vn-parser"
             }
           }
         }
@@ -19864,9 +19864,9 @@
             "VN": {
               "currency": "VND",
               "amount": 195000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#fpt-internet",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://fpt.vn/internet",
+              "method": "vn-parser"
             }
           }
         },
@@ -19919,9 +19919,9 @@
             "VN": {
               "currency": "VND",
               "amount": 190000,
-              "verifiedAt": "2026-11-05",
-              "source": "https://github.com/phamphuongphuongnd/catalog/blob/main/docs/sources-v3.md#vnpt-internet",
-              "method": "manual"
+              "verifiedAt": "2026-11-06",
+              "source": "https://vnpt.vn/goi-home/home-internet",
+              "method": "vn-parser"
             }
           }
         }
