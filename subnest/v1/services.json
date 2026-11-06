@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "version": 6,
+  "version": 8,
   "updatedAt": "2026-11-06",
   "staleAfterDays": 90,
   "regions": {
@@ -2934,6 +2934,150 @@
             "VN": {
               "currency": "VND",
               "amount": 30000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "k-plus",
+      "name": "K+",
+      "category": "video",
+      "color": "#E30613",
+      "monogram": "K+",
+      "market": "vn",
+      "logoDomain": "kplus.vn",
+      "aliases": [
+        "k+",
+        "kplus",
+        "bong da",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Gói Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 180000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "clip-tv",
+      "name": "ClipTV",
+      "category": "video",
+      "color": "#00A0E9",
+      "monogram": "CT",
+      "market": "vn",
+      "logoDomain": "cliptv.vn",
+      "aliases": [
+        "cliptv",
+        "clip tv",
+        "truyen hinh",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 66000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "my-tv",
+      "name": "MyTV",
+      "category": "video",
+      "color": "#0059A8",
+      "monogram": "MT",
+      "market": "vn",
+      "logoDomain": "mytv.com.vn",
+      "aliases": [
+        "mytv",
+        "vnpt mytv",
+        "truyen hinh",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Chuẩn",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 80000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "popsapp",
+      "name": "POPS",
+      "category": "video",
+      "color": "#FF2D2D",
+      "monogram": "Po",
+      "market": "vn",
+      "logoDomain": "pops.vn",
+      "aliases": [
+        "pops",
+        "pops kids",
+        "hoat hinh",
+        "xem phim"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "vip",
+          "name": "VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 49000,
               "method": "manual"
             }
           }
@@ -13392,6 +13536,1058 @@
       "note": "2026-11-05 (WebSearch): twitch.tv/turbo ghi $11.99/tháng (mua trên web, vùng không có giá địa phương); mua qua app có thể đắt hơn."
     },
     {
+      "id": "steam",
+      "name": "Steam",
+      "category": "gaming",
+      "color": "#171A21",
+      "monogram": "St",
+      "market": "global",
+      "logoDomain": "steampowered.com",
+      "aliases": [
+        "steam",
+        "valve",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "wallet",
+          "name": "Wallet top-up",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "epic-games",
+      "name": "Epic Games Fortnite Crew",
+      "category": "gaming",
+      "color": "#313131",
+      "monogram": "EG",
+      "market": "global",
+      "logoDomain": "epicgames.com",
+      "aliases": [
+        "epic games fortnite crew",
+        "fortnite crew",
+        "fortnite",
+        "choi game"
+      ],
+      "storeNames": [
+        "Fortnite"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "crew",
+          "name": "Fortnite Crew",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "minecraft-realms",
+      "name": "Minecraft Realms",
+      "category": "gaming",
+      "color": "#62B47A",
+      "monogram": "MR",
+      "market": "global",
+      "logoDomain": "minecraft.net",
+      "aliases": [
+        "minecraft realms",
+        "minecraft",
+        "choi game"
+      ],
+      "storeNames": [
+        "Minecraft"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "realms",
+          "name": "Realms",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 3.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "realms-plus",
+          "name": "Realms Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "amazon-luna",
+      "name": "Amazon Luna",
+      "category": "gaming",
+      "color": "#9146FE",
+      "monogram": "Lu",
+      "market": "global",
+      "logoDomain": "luna.amazon.com",
+      "aliases": [
+        "amazon luna",
+        "cloud gaming",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Luna Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "boosteroid",
+      "name": "Boosteroid",
+      "category": "gaming",
+      "color": "#7A3CF0",
+      "monogram": "Bs",
+      "market": "global",
+      "logoDomain": "boosteroid.com",
+      "aliases": [
+        "boosteroid",
+        "cloud gaming",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.89,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "shadow-pc",
+      "name": "Shadow PC",
+      "category": "gaming",
+      "color": "#222223",
+      "monogram": "Sd",
+      "market": "global",
+      "logoDomain": "shadow.tech",
+      "aliases": [
+        "shadow pc",
+        "cloud pc",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "neo",
+          "name": "Neo",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 37.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "humble-choice",
+      "name": "Humble Choice",
+      "category": "gaming",
+      "color": "#CC2929",
+      "monogram": "HC",
+      "market": "global",
+      "logoDomain": "humblebundle.com",
+      "aliases": [
+        "humble choice",
+        "humble bundle",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "pokemon-go",
+      "name": "Pokémon GO Pass",
+      "category": "gaming",
+      "color": "#FFCB05",
+      "monogram": "PG",
+      "market": "global",
+      "logoDomain": "pokemongolive.com",
+      "aliases": [
+        "pokémon go pass",
+        "pokemon",
+        "choi game"
+      ],
+      "storeNames": [
+        "Pokémon GO"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "go-pass-deluxe",
+          "name": "GO Pass Deluxe",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "clash-of-clans",
+      "name": "Clash of Clans Gold Pass",
+      "category": "gaming",
+      "color": "#F5C300",
+      "monogram": "CO",
+      "market": "global",
+      "logoDomain": "supercell.com",
+      "aliases": [
+        "clash of clans gold pass",
+        "coc",
+        "choi game"
+      ],
+      "storeNames": [
+        "Clash of Clans"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "gold-pass",
+          "name": "Gold Pass",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "clash-royale",
+      "name": "Clash Royale Pass",
+      "category": "gaming",
+      "color": "#1C78C8",
+      "monogram": "CR",
+      "market": "global",
+      "logoDomain": "supercell.com",
+      "aliases": [
+        "clash royale pass",
+        "cr",
+        "choi game"
+      ],
+      "storeNames": [
+        "Clash Royale"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pass-royale",
+          "name": "Pass Royale",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "brawl-stars",
+      "name": "Brawl Stars Pass",
+      "category": "gaming",
+      "color": "#FFD400",
+      "monogram": "BS",
+      "market": "global",
+      "logoDomain": "supercell.com",
+      "aliases": [
+        "brawl stars pass",
+        "brawl",
+        "choi game"
+      ],
+      "storeNames": [
+        "Brawl Stars"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "brawl-pass",
+          "name": "Brawl Pass",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "genshin-impact",
+      "name": "Genshin Impact Blessing",
+      "category": "gaming",
+      "color": "#4F7CE0",
+      "monogram": "GI",
+      "market": "global",
+      "logoDomain": "hoyoverse.com",
+      "aliases": [
+        "genshin impact blessing",
+        "genshin",
+        "welkin",
+        "choi game"
+      ],
+      "storeNames": [
+        "Genshin Impact"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "welkin",
+          "name": "Blessing of the Welkin Moon",
+          "status": "active",
+          "cycle": {
+            "unit": "day",
+            "count": 30
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "honkai-star-rail",
+      "name": "Honkai: Star Rail Express Pass",
+      "category": "gaming",
+      "color": "#3B3B6B",
+      "monogram": "HS",
+      "market": "global",
+      "logoDomain": "hoyoverse.com",
+      "aliases": [
+        "honkai: star rail express pass",
+        "hsr",
+        "choi game"
+      ],
+      "storeNames": [
+        "Honkai: Star Rail"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "express",
+          "name": "Express Supply Pass",
+          "status": "active",
+          "cycle": {
+            "unit": "day",
+            "count": 30
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "candy-crush",
+      "name": "Candy Crush Gold Pass",
+      "category": "gaming",
+      "color": "#E5397E",
+      "monogram": "CC",
+      "market": "global",
+      "logoDomain": "king.com",
+      "aliases": [
+        "candy crush gold pass",
+        "candy crush",
+        "choi game"
+      ],
+      "storeNames": [
+        "Candy Crush Saga"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pass",
+          "name": "Royal Pass",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "pubg-mobile",
+      "name": "PUBG Mobile Prime",
+      "category": "gaming",
+      "color": "#F2A900",
+      "monogram": "PU",
+      "market": "global",
+      "logoDomain": "pubgmobile.com",
+      "aliases": [
+        "pubg mobile prime",
+        "pubg",
+        "choi game"
+      ],
+      "storeNames": [
+        "PUBG MOBILE"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "prime-plus",
+          "name": "Prime Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "free-fire",
+      "name": "Free Fire Membership",
+      "category": "gaming",
+      "color": "#FF5A00",
+      "monogram": "FF",
+      "market": "global",
+      "logoDomain": "ff.garena.com",
+      "aliases": [
+        "free fire membership",
+        "garena",
+        "free fire",
+        "choi game"
+      ],
+      "storeNames": [
+        "Free Fire"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly Membership",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "call-of-duty-mobile",
+      "name": "Call of Duty: Mobile Battle Pass",
+      "category": "gaming",
+      "color": "#1E1E1F",
+      "monogram": "CD",
+      "market": "global",
+      "logoDomain": "callofduty.com",
+      "aliases": [
+        "call of duty: mobile battle pass",
+        "cod mobile",
+        "choi game"
+      ],
+      "storeNames": [
+        "Call of Duty: Mobile"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "battle-pass",
+          "name": "Premium Battle Pass",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "world-of-warcraft",
+      "name": "World of Warcraft",
+      "category": "gaming",
+      "color": "#148EFF",
+      "monogram": "WW",
+      "market": "global",
+      "logoDomain": "worldofwarcraft.blizzard.com",
+      "aliases": [
+        "world of warcraft",
+        "wow",
+        "blizzard",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Game Time",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "final-fantasy-xiv",
+      "name": "Final Fantasy XIV",
+      "category": "gaming",
+      "color": "#3C3C64",
+      "monogram": "FX",
+      "market": "global",
+      "logoDomain": "finalfantasyxiv.com",
+      "aliases": [
+        "final fantasy xiv",
+        "ffxiv",
+        "square enix",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "entry",
+          "name": "Entry Subscription",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "standard",
+          "name": "Standard Subscription",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "runescape",
+      "name": "RuneScape Membership",
+      "category": "gaming",
+      "color": "#C59B3C",
+      "monogram": "RS",
+      "market": "global",
+      "logoDomain": "runescape.com",
+      "aliases": [
+        "runescape membership",
+        "osrs",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Membership",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "eve-online",
+      "name": "EVE Online Omega",
+      "category": "gaming",
+      "color": "#1C1C25",
+      "monogram": "EV",
+      "market": "global",
+      "logoDomain": "eveonline.com",
+      "aliases": [
+        "eve online omega",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "omega",
+          "name": "Omega",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 19.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "elder-scrolls-online",
+      "name": "ESO Plus",
+      "category": "gaming",
+      "color": "#9C7F4E",
+      "monogram": "EO",
+      "market": "global",
+      "logoDomain": "elderscrollsonline.com",
+      "aliases": [
+        "eso plus",
+        "eso",
+        "elder scrolls",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "ESO Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "fallout-1st",
+      "name": "Fallout 1st",
+      "category": "gaming",
+      "color": "#2B5C2B",
+      "monogram": "F1",
+      "market": "global",
+      "logoDomain": "fallout.bethesda.net",
+      "aliases": [
+        "fallout 1st",
+        "fallout 76",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Fallout 1st",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "chess-com",
+      "name": "Chess.com",
+      "category": "gaming",
+      "color": "#81B64C",
+      "monogram": "Ch",
+      "market": "global",
+      "logoDomain": "chess.com",
+      "aliases": [
+        "chess.com",
+        "co vua",
+        "chess",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "gold",
+          "name": "Gold Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 49.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "diamond",
+          "name": "Diamond Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 139.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "twitch-sub",
+      "name": "Twitch Subscription",
+      "category": "gaming",
+      "color": "#9146FD",
+      "monogram": "TS",
+      "market": "global",
+      "logoDomain": "twitch.tv",
+      "aliases": [
+        "twitch subscription",
+        "twitch sub",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "tier-1",
+          "name": "Tier 1 Sub",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "vrchat-plus",
+      "name": "VRChat+",
+      "category": "gaming",
+      "color": "#1F1F20",
+      "monogram": "VR",
+      "market": "global",
+      "logoDomain": "vrchat.com",
+      "aliases": [
+        "vrchat+",
+        "vrchat",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "VRChat+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "meta-horizon-plus",
+      "name": "Meta Horizon+",
+      "category": "gaming",
+      "color": "#0081FB",
+      "monogram": "MH",
+      "market": "global",
+      "logoDomain": "meta.com",
+      "aliases": [
+        "meta horizon+",
+        "quest",
+        "oculus",
+        "choi game"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Horizon+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Horizon+ Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
       "id": "kindle-unlimited",
       "name": "Kindle Unlimited",
       "category": "reading",
@@ -13722,6 +14918,1298 @@
         }
       ],
       "note": "2026-11-05 (WebSearch): blinkist.com/pricing mâu thuẫn ($79.99 ưu đãi / $99.99 gốc / gia hạn $174.99) -> approx."
+    },
+    {
+      "id": "scribd",
+      "name": "Scribd",
+      "category": "reading",
+      "color": "#1E7B86",
+      "monogram": "Sb",
+      "market": "global",
+      "logoDomain": "scribd.com",
+      "aliases": [
+        "scribd",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Scribd",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "kobo-plus",
+      "name": "Kobo Plus",
+      "category": "reading",
+      "color": "#BF0000",
+      "monogram": "KP",
+      "market": "global",
+      "logoDomain": "kobo.com",
+      "aliases": [
+        "kobo plus",
+        "rakuten kobo",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "read",
+          "name": "Kobo Plus Read",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "read-listen",
+          "name": "Kobo Plus Read & Listen",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "storytel",
+      "name": "Storytel",
+      "category": "reading",
+      "color": "#FF5C28",
+      "monogram": "Sy",
+      "market": "global",
+      "logoDomain": "storytel.com",
+      "aliases": [
+        "storytel",
+        "audiobook",
+        "sach noi",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "unlimited",
+          "name": "Unlimited",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "libro-fm",
+      "name": "Libro.fm",
+      "category": "reading",
+      "color": "#13BF9E",
+      "monogram": "Lf",
+      "market": "global",
+      "logoDomain": "libro.fm",
+      "aliases": [
+        "libro.fm",
+        "audiobook",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Membership",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "audiobooks-com",
+      "name": "Audiobooks.com",
+      "category": "reading",
+      "color": "#F05A28",
+      "monogram": "Ab",
+      "market": "global",
+      "logoDomain": "audiobooks.com",
+      "aliases": [
+        "audiobooks.com",
+        "audiobook",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.95,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "wall-street-journal",
+      "name": "The Wall Street Journal",
+      "category": "reading",
+      "color": "#0080C3",
+      "monogram": "WJ",
+      "market": "global",
+      "logoDomain": "wsj.com",
+      "aliases": [
+        "the wall street journal",
+        "wsj",
+        "news",
+        "tin tuc",
+        "doc sach"
+      ],
+      "storeNames": [
+        "WSJ"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital",
+          "name": "Digital",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 38.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "washington-post",
+      "name": "The Washington Post",
+      "category": "reading",
+      "color": "#111112",
+      "monogram": "WP",
+      "market": "global",
+      "logoDomain": "washingtonpost.com",
+      "aliases": [
+        "the washington post",
+        "wapo",
+        "news",
+        "tin tuc",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "all-access",
+          "name": "All Access Digital",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 4
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "economist",
+      "name": "The Economist",
+      "category": "reading",
+      "color": "#E3120B",
+      "monogram": "Ec",
+      "market": "global",
+      "logoDomain": "economist.com",
+      "aliases": [
+        "the economist",
+        "news",
+        "tin tuc",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital-annual",
+          "name": "Digital Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 229,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "financial-times",
+      "name": "Financial Times",
+      "category": "reading",
+      "color": "#FCD0B1",
+      "monogram": "FT",
+      "market": "global",
+      "logoDomain": "ft.com",
+      "aliases": [
+        "financial times",
+        "ft",
+        "news",
+        "tin tuc",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard Digital",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 45,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "category": "reading",
+      "color": "#2800D7",
+      "monogram": "Bl",
+      "market": "global",
+      "logoDomain": "bloomberg.com",
+      "aliases": [
+        "bloomberg",
+        "news",
+        "tin tuc",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital",
+          "name": "Digital",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 34.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "the-atlantic",
+      "name": "The Atlantic",
+      "category": "reading",
+      "color": "#E7131A",
+      "monogram": "TA",
+      "market": "global",
+      "logoDomain": "theatlantic.com",
+      "aliases": [
+        "the atlantic",
+        "news",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital-annual",
+          "name": "Digital Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 79.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "new-yorker",
+      "name": "The New Yorker",
+      "category": "reading",
+      "color": "#000013",
+      "monogram": "NY",
+      "market": "global",
+      "logoDomain": "newyorker.com",
+      "aliases": [
+        "the new yorker",
+        "news",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital-annual",
+          "name": "Digital Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 99.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "the-athletic",
+      "name": "The Athletic",
+      "category": "reading",
+      "color": "#121213",
+      "monogram": "Th",
+      "market": "global",
+      "logoDomain": "theathletic.com",
+      "aliases": [
+        "the athletic",
+        "sports news",
+        "doc sach"
+      ],
+      "storeNames": [
+        "The Athletic"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 71.88,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "category": "reading",
+      "color": "#052962",
+      "monogram": "Gu",
+      "market": "global",
+      "logoDomain": "theguardian.com",
+      "aliases": [
+        "the guardian",
+        "news",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "support",
+          "name": "All-access digital",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 15,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "category": "reading",
+      "color": "#FF8000",
+      "monogram": "Ru",
+      "market": "global",
+      "logoDomain": "reuters.com",
+      "aliases": [
+        "reuters",
+        "news",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital",
+          "name": "Digital",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "la-times",
+      "name": "Los Angeles Times",
+      "category": "reading",
+      "color": "#000014",
+      "monogram": "LA",
+      "market": "global",
+      "logoDomain": "latimes.com",
+      "aliases": [
+        "los angeles times",
+        "latimes",
+        "news",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital",
+          "name": "Digital",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 4
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 15.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "wired",
+      "name": "WIRED",
+      "category": "reading",
+      "color": "#000015",
+      "monogram": "Wd",
+      "market": "global",
+      "logoDomain": "wired.com",
+      "aliases": [
+        "wired",
+        "news",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "digital-annual",
+          "name": "Digital Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "readwise",
+      "name": "Readwise",
+      "category": "reading",
+      "color": "#1B1B1D",
+      "monogram": "Rw",
+      "market": "global",
+      "logoDomain": "readwise.io",
+      "aliases": [
+        "readwise",
+        "reader",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "full",
+          "name": "Full (Reader)",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "instapaper",
+      "name": "Instapaper Premium",
+      "category": "reading",
+      "color": "#000016",
+      "monogram": "Ip",
+      "market": "global",
+      "logoDomain": "instapaper.com",
+      "aliases": [
+        "instapaper premium",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "feedly",
+      "name": "Feedly Pro",
+      "category": "reading",
+      "color": "#2BB24C",
+      "monogram": "Fd",
+      "market": "global",
+      "logoDomain": "feedly.com",
+      "aliases": [
+        "feedly pro",
+        "rss",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 96,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "inoreader",
+      "name": "Inoreader",
+      "category": "reading",
+      "color": "#1875F3",
+      "monogram": "Io",
+      "market": "global",
+      "logoDomain": "inoreader.com",
+      "aliases": [
+        "inoreader",
+        "rss",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 90,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "substack",
+      "name": "Substack",
+      "category": "reading",
+      "color": "#FF6719",
+      "monogram": "Ss",
+      "market": "global",
+      "logoDomain": "substack.com",
+      "aliases": [
+        "substack",
+        "newsletter",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "paid",
+          "name": "Paid subscription",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 8,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "marvel-unlimited",
+      "name": "Marvel Unlimited",
+      "category": "reading",
+      "color": "#EC1D24",
+      "monogram": "MU",
+      "market": "global",
+      "logoDomain": "marvel.com",
+      "aliases": [
+        "marvel unlimited",
+        "comics",
+        "truyen tranh",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "dc-universe-infinite",
+      "name": "DC Universe Infinite",
+      "category": "reading",
+      "color": "#0476F2",
+      "monogram": "DC",
+      "market": "global",
+      "logoDomain": "dcuniverseinfinite.com",
+      "aliases": [
+        "dc universe infinite",
+        "comics",
+        "truyen tranh",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "shonen-jump",
+      "name": "Shonen Jump",
+      "category": "reading",
+      "color": "#E60013",
+      "monogram": "SJ",
+      "market": "global",
+      "logoDomain": "viz.com",
+      "aliases": [
+        "shonen jump",
+        "manga",
+        "truyen tranh",
+        "doc sach"
+      ],
+      "storeNames": [
+        "Shonen Jump"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Shonen Jump",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 2.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "ultimate",
+          "name": "Ultimate",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "wattpad",
+      "name": "Wattpad Premium",
+      "category": "reading",
+      "color": "#FF500A",
+      "monogram": "Wt",
+      "market": "global",
+      "logoDomain": "wattpad.com",
+      "aliases": [
+        "wattpad premium",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "pressreader",
+      "name": "PressReader",
+      "category": "reading",
+      "color": "#E30614",
+      "monogram": "PR",
+      "market": "global",
+      "logoDomain": "pressreader.com",
+      "aliases": [
+        "pressreader",
+        "magazines",
+        "bao",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "readly",
+      "name": "Readly",
+      "category": "reading",
+      "color": "#E62D4C",
+      "monogram": "Rl",
+      "market": "global",
+      "logoDomain": "readly.com",
+      "aliases": [
+        "readly",
+        "magazines",
+        "tap chi",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "wondery-plus",
+      "name": "Wondery+",
+      "category": "reading",
+      "color": "#2E2D2D",
+      "monogram": "W+",
+      "market": "global",
+      "logoDomain": "wondery.com",
+      "aliases": [
+        "wondery+",
+        "podcast",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "pocket-casts",
+      "name": "Pocket Casts Plus",
+      "category": "reading",
+      "color": "#F43E37",
+      "monogram": "PC",
+      "market": "global",
+      "logoDomain": "pocketcasts.com",
+      "aliases": [
+        "pocket casts plus",
+        "podcast",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus-annual",
+          "name": "Plus Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "headway",
+      "name": "Headway",
+      "category": "reading",
+      "color": "#FFC800",
+      "monogram": "Hw",
+      "market": "global",
+      "logoDomain": "makeheadway.com",
+      "aliases": [
+        "headway",
+        "book summary",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 89.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "shortform",
+      "name": "Shortform",
+      "category": "reading",
+      "color": "#1A73E8",
+      "monogram": "Sf",
+      "market": "global",
+      "logoDomain": "shortform.com",
+      "aliases": [
+        "shortform",
+        "book summary",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 199,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "waka",
+      "name": "Waka",
+      "category": "reading",
+      "color": "#00A884",
+      "monogram": "Wk",
+      "market": "vn",
+      "logoDomain": "waka.vn",
+      "aliases": [
+        "waka",
+        "sach dien tu",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Hội viên tháng",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 49000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "fonos",
+      "name": "Fonos",
+      "category": "reading",
+      "color": "#FF6B00",
+      "monogram": "Fo",
+      "market": "vn",
+      "logoDomain": "fonos.vn",
+      "aliases": [
+        "fonos",
+        "sach noi",
+        "audiobook",
+        "doc sach"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Hội viên tháng",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 139000,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Hội viên năm",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 989000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
     },
     {
       "id": "strava",
@@ -14116,6 +16604,1391 @@
       "note": "2026-11-05 (WebSearch): support.onepeloton.com (\"Membership Fee Changes\") và onepeloton.com/app-membership ghi App+ $28.99/tháng (từ 01/10/2025). App One: nguồn mới nhất chỉ thấy $12.99 (nguồn cũ) hoặc $0 (khuyến mãi) — không xác nhận được $15.99 -> approx."
     },
     {
+      "id": "noom",
+      "name": "Noom",
+      "category": "health",
+      "color": "#FA6C00",
+      "monogram": "No",
+      "market": "global",
+      "logoDomain": "noom.com",
+      "aliases": [
+        "noom",
+        "weight loss",
+        "giam can",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Noom Weight",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 70,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "weightwatchers",
+      "name": "WeightWatchers",
+      "category": "health",
+      "color": "#1A1F71",
+      "monogram": "WW",
+      "market": "global",
+      "logoDomain": "weightwatchers.com",
+      "aliases": [
+        "weightwatchers",
+        "ww",
+        "giam can",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "core",
+          "name": "Core",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 23,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "whoop",
+      "name": "WHOOP",
+      "category": "health",
+      "color": "#000017",
+      "monogram": "Wh",
+      "market": "global",
+      "logoDomain": "whoop.com",
+      "aliases": [
+        "whoop",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "one",
+          "name": "One Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 199,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "oura",
+      "name": "Oura Membership",
+      "category": "health",
+      "color": "#000018",
+      "monogram": "Ou",
+      "market": "global",
+      "logoDomain": "ouraring.com",
+      "aliases": [
+        "oura membership",
+        "oura ring",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Membership",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 5.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "garmin-connect-plus",
+      "name": "Garmin Connect+",
+      "category": "health",
+      "color": "#007CC3",
+      "monogram": "GC",
+      "market": "global",
+      "logoDomain": "garmin.com",
+      "aliases": [
+        "garmin connect+",
+        "garmin",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Connect+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 6.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Connect+ Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "zwift",
+      "name": "Zwift",
+      "category": "health",
+      "color": "#FC6719",
+      "monogram": "Zw",
+      "market": "global",
+      "logoDomain": "zwift.com",
+      "aliases": [
+        "zwift",
+        "cycling",
+        "dap xe",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 19.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "alltrails",
+      "name": "AllTrails Plus",
+      "category": "health",
+      "color": "#428A13",
+      "monogram": "AT",
+      "market": "global",
+      "logoDomain": "alltrails.com",
+      "aliases": [
+        "alltrails plus",
+        "hiking",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Plus Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 35.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "peak",
+          "name": "Peak Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 79.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "komoot",
+      "name": "komoot Premium",
+      "category": "health",
+      "color": "#6AA127",
+      "monogram": "ko",
+      "market": "global",
+      "logoDomain": "komoot.com",
+      "aliases": [
+        "komoot premium",
+        "hiking",
+        "cycling",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "fitbod",
+      "name": "Fitbod",
+      "category": "health",
+      "color": "#E8384F",
+      "monogram": "Fb",
+      "market": "global",
+      "logoDomain": "fitbod.me",
+      "aliases": [
+        "fitbod",
+        "gym",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 15.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 95.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "beachbody",
+      "name": "BODi",
+      "category": "health",
+      "color": "#00A3E0",
+      "monogram": "BD",
+      "market": "global",
+      "logoDomain": "beachbody.com",
+      "aliases": [
+        "bodi",
+        "beachbody",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 179,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "les-mills",
+      "name": "LES MILLS+",
+      "category": "health",
+      "color": "#E10500",
+      "monogram": "LM",
+      "market": "global",
+      "logoDomain": "lesmills.com",
+      "aliases": [
+        "les mills+",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "centr",
+      "name": "Centr",
+      "category": "health",
+      "color": "#1C1C1D",
+      "monogram": "Ce",
+      "market": "global",
+      "logoDomain": "centr.com",
+      "aliases": [
+        "centr",
+        "chris hemsworth",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "sweat",
+      "name": "Sweat",
+      "category": "health",
+      "color": "#FF4F7B",
+      "monogram": "Sw",
+      "market": "global",
+      "logoDomain": "sweat.com",
+      "aliases": [
+        "sweat",
+        "kayla itsines",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 19.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 119.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ladder",
+      "name": "Ladder",
+      "category": "health",
+      "color": "#000019",
+      "monogram": "Ld",
+      "market": "global",
+      "logoDomain": "joinladder.com",
+      "aliases": [
+        "ladder",
+        "strength",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "lose-it",
+      "name": "Lose It!",
+      "category": "health",
+      "color": "#FF6A13",
+      "monogram": "LI",
+      "market": "global",
+      "logoDomain": "loseit.com",
+      "aliases": [
+        "lose it!",
+        "calorie",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "cronometer",
+      "name": "Cronometer Gold",
+      "category": "health",
+      "color": "#FF763F",
+      "monogram": "Cr",
+      "market": "global",
+      "logoDomain": "cronometer.com",
+      "aliases": [
+        "cronometer gold",
+        "nutrition",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "gold",
+          "name": "Gold Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "yazio",
+      "name": "YAZIO PRO",
+      "category": "health",
+      "color": "#FF7A3D",
+      "monogram": "Yz",
+      "market": "global",
+      "logoDomain": "yazio.com",
+      "aliases": [
+        "yazio pro",
+        "calorie",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 47.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "zero-fasting",
+      "name": "Zero Fasting",
+      "category": "health",
+      "color": "#FF5A5F",
+      "monogram": "Ze",
+      "market": "global",
+      "logoDomain": "zerolongevity.com",
+      "aliases": [
+        "zero fasting",
+        "fasting",
+        "nhin an",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Zero+ Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "flo",
+      "name": "Flo Premium",
+      "category": "health",
+      "color": "#FF6D93",
+      "monogram": "Fl",
+      "market": "global",
+      "logoDomain": "flo.health",
+      "aliases": [
+        "flo premium",
+        "period",
+        "kinh nguyet",
+        "suc khoe"
+      ],
+      "storeNames": [
+        "Flo"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 49.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "clue",
+      "name": "Clue Plus",
+      "category": "health",
+      "color": "#FF5C5C",
+      "monogram": "Cl",
+      "market": "global",
+      "logoDomain": "helloclue.com",
+      "aliases": [
+        "clue plus",
+        "period",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Clue Plus Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "natural-cycles",
+      "name": "Natural Cycles",
+      "category": "health",
+      "color": "#2F1A4F",
+      "monogram": "NC",
+      "market": "global",
+      "logoDomain": "naturalcycles.com",
+      "aliases": [
+        "natural cycles",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 129.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "sleep-cycle",
+      "name": "Sleep Cycle Premium",
+      "category": "health",
+      "color": "#2D2B55",
+      "monogram": "SC",
+      "market": "global",
+      "logoDomain": "sleepcycle.com",
+      "aliases": [
+        "sleep cycle premium",
+        "sleep",
+        "giac ngu",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "betterhelp",
+      "name": "BetterHelp",
+      "category": "health",
+      "color": "#397A4A",
+      "monogram": "BH",
+      "market": "global",
+      "logoDomain": "betterhelp.com",
+      "aliases": [
+        "betterhelp",
+        "therapy",
+        "tri lieu",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "weekly",
+          "name": "Weekly therapy",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 90,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "talkspace",
+      "name": "Talkspace",
+      "category": "health",
+      "color": "#4E5BA6",
+      "monogram": "Ts",
+      "market": "global",
+      "logoDomain": "talkspace.com",
+      "aliases": [
+        "talkspace",
+        "therapy",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "messaging",
+          "name": "Messaging therapy",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ten-percent-happier",
+      "name": "Ten Percent Happier",
+      "category": "health",
+      "color": "#F0623A",
+      "monogram": "TP",
+      "market": "global",
+      "logoDomain": "tenpercent.com",
+      "aliases": [
+        "ten percent happier",
+        "meditation",
+        "thien",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 99.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "insight-timer",
+      "name": "Insight Timer Plus",
+      "category": "health",
+      "color": "#232D52",
+      "monogram": "IT",
+      "market": "global",
+      "logoDomain": "insighttimer.com",
+      "aliases": [
+        "insight timer plus",
+        "meditation",
+        "thien",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Member+ Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "waking-up",
+      "name": "Waking Up",
+      "category": "health",
+      "color": "#0E0E0F",
+      "monogram": "WU",
+      "market": "global",
+      "logoDomain": "wakingup.com",
+      "aliases": [
+        "waking up",
+        "meditation",
+        "thien",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 129.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "glo",
+      "name": "Glo",
+      "category": "health",
+      "color": "#2E3F57",
+      "monogram": "Gl",
+      "market": "global",
+      "logoDomain": "glo.com",
+      "aliases": [
+        "glo",
+        "yoga",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 28,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "down-dog",
+      "name": "Down Dog",
+      "category": "health",
+      "color": "#5C46A8",
+      "monogram": "DD",
+      "market": "global",
+      "logoDomain": "downdogapp.com",
+      "aliases": [
+        "down dog",
+        "yoga",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "classpass",
+      "name": "ClassPass",
+      "category": "health",
+      "color": "#0055FF",
+      "monogram": "CP",
+      "market": "global",
+      "logoDomain": "classpass.com",
+      "aliases": [
+        "classpass",
+        "gym",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "starter",
+          "name": "Monthly credits",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 49,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "planet-fitness",
+      "name": "Planet Fitness",
+      "category": "health",
+      "color": "#5C2D91",
+      "monogram": "PF",
+      "market": "global",
+      "logoDomain": "planetfitness.com",
+      "aliases": [
+        "planet fitness",
+        "gym",
+        "phong tap",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "classic",
+          "name": "Classic",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 15,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "black-card",
+          "name": "PF Black Card",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "anytime-fitness",
+      "name": "Anytime Fitness",
+      "category": "health",
+      "color": "#5A2D82",
+      "monogram": "AF",
+      "market": "global",
+      "logoDomain": "anytimefitness.com",
+      "aliases": [
+        "anytime fitness",
+        "gym",
+        "phong tap",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Membership",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 45,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "hims",
+      "name": "Hims",
+      "category": "health",
+      "color": "#000020",
+      "monogram": "Hi",
+      "market": "global",
+      "logoDomain": "hims.com",
+      "aliases": [
+        "hims",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly plan",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "hers",
+      "name": "Hers",
+      "category": "health",
+      "color": "#C26D52",
+      "monogram": "He",
+      "market": "global",
+      "logoDomain": "forhers.com",
+      "aliases": [
+        "hers",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly plan",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ro",
+      "name": "Ro",
+      "category": "health",
+      "color": "#1D1D1E",
+      "monogram": "Ro",
+      "market": "global",
+      "logoDomain": "ro.co",
+      "aliases": [
+        "ro",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "body",
+          "name": "Body Membership",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 145,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "one-medical",
+      "name": "One Medical",
+      "category": "health",
+      "color": "#005E5D",
+      "monogram": "OM",
+      "market": "global",
+      "logoDomain": "onemedical.com",
+      "aliases": [
+        "one medical",
+        "amazon one medical",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Membership Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 199,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "goodrx-gold",
+      "name": "GoodRx Gold",
+      "category": "health",
+      "color": "#FFDB00",
+      "monogram": "GR",
+      "market": "global",
+      "logoDomain": "goodrx.com",
+      "aliases": [
+        "goodrx gold",
+        "pharmacy",
+        "suc khoe"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individual",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
       "id": "duolingo",
       "name": "Duolingo",
       "category": "education",
@@ -14460,6 +18333,1114 @@
       "note": "2026-11-05 (WebSearch): monkey.edu.vn/san-pham/monkey-junior ghi 1 năm 799.000đ (6 tháng 699.000, trọn đời 1.399.000); Monkey Stories 1 năm 699.000đ theo trang review của monkey.edu.vn. Web/đại lý thường có khuyến mãi thấp hơn."
     },
     {
+      "id": "babbel",
+      "name": "Babbel",
+      "category": "education",
+      "color": "#FF6A00",
+      "monogram": "Bb",
+      "market": "global",
+      "logoDomain": "babbel.com",
+      "aliases": [
+        "babbel",
+        "language",
+        "ngoai ngu",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "1 month",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 17.95,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "12 months",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 107.4,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "rosetta-stone",
+      "name": "Rosetta Stone",
+      "category": "education",
+      "color": "#F2A41F",
+      "monogram": "RS",
+      "market": "global",
+      "logoDomain": "rosettastone.com",
+      "aliases": [
+        "rosetta stone",
+        "language",
+        "ngoai ngu",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "12 months",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 179,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "busuu",
+      "name": "Busuu",
+      "category": "education",
+      "color": "#2F80ED",
+      "monogram": "Bu",
+      "market": "global",
+      "logoDomain": "busuu.com",
+      "aliases": [
+        "busuu",
+        "language",
+        "ngoai ngu",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "memrise",
+      "name": "Memrise",
+      "category": "education",
+      "color": "#FFC11E",
+      "monogram": "Me",
+      "market": "global",
+      "logoDomain": "memrise.com",
+      "aliases": [
+        "memrise",
+        "language",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 99.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "pimsleur",
+      "name": "Pimsleur",
+      "category": "education",
+      "color": "#CF2032",
+      "monogram": "Pm",
+      "market": "global",
+      "logoDomain": "pimsleur.com",
+      "aliases": [
+        "pimsleur",
+        "language",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "All Access",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 20.95,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "cambly",
+      "name": "Cambly",
+      "category": "education",
+      "color": "#FFC81E",
+      "monogram": "Cy",
+      "market": "global",
+      "logoDomain": "cambly.com",
+      "aliases": [
+        "cambly",
+        "english tutor",
+        "hoc tieng anh",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "30 min/week",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "masterclass",
+      "name": "MasterClass",
+      "category": "education",
+      "color": "#E32652",
+      "monogram": "MC",
+      "market": "global",
+      "logoDomain": "masterclass.com",
+      "aliases": [
+        "masterclass",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individual Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 120,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "duo",
+          "name": "Duo Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 180,
+              "method": "manual"
+            }
+          },
+          "members": 2
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "skillshare",
+      "name": "Skillshare",
+      "category": "education",
+      "color": "#00FF84",
+      "monogram": "Sk",
+      "market": "global",
+      "logoDomain": "skillshare.com",
+      "aliases": [
+        "skillshare",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 168,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "linkedin-learning",
+      "name": "LinkedIn Learning",
+      "category": "education",
+      "color": "#0A66C3",
+      "monogram": "LL",
+      "market": "global",
+      "logoDomain": "linkedin.com",
+      "aliases": [
+        "linkedin learning",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy Personal Plan",
+      "category": "education",
+      "color": "#A435F0",
+      "monogram": "Ud",
+      "market": "global",
+      "logoDomain": "udemy.com",
+      "aliases": [
+        "udemy personal plan",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "personal",
+          "name": "Personal Plan",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "brilliant",
+      "name": "Brilliant",
+      "category": "education",
+      "color": "#0E1A2B",
+      "monogram": "Br",
+      "market": "global",
+      "logoDomain": "brilliant.org",
+      "aliases": [
+        "brilliant",
+        "math",
+        "toan",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 161.88,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "chegg",
+      "name": "Chegg Study",
+      "category": "education",
+      "color": "#EB7100",
+      "monogram": "Cg",
+      "market": "global",
+      "logoDomain": "chegg.com",
+      "aliases": [
+        "chegg study",
+        "homework",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "study",
+          "name": "Study Pack",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 19.95,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "course-hero",
+      "name": "Course Hero",
+      "category": "education",
+      "color": "#0A5ADE",
+      "monogram": "CH",
+      "market": "global",
+      "logoDomain": "coursehero.com",
+      "aliases": [
+        "course hero",
+        "homework",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premier",
+          "name": "Premier",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.95,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "photomath",
+      "name": "Photomath Plus",
+      "category": "education",
+      "color": "#E73F3F",
+      "monogram": "Pm",
+      "market": "global",
+      "logoDomain": "photomath.com",
+      "aliases": [
+        "photomath plus",
+        "math",
+        "giai toan",
+        "hoc"
+      ],
+      "storeNames": [
+        "Photomath"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Plus Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "brainly",
+      "name": "Brainly Plus",
+      "category": "education",
+      "color": "#0FA86B",
+      "monogram": "By",
+      "market": "global",
+      "logoDomain": "brainly.com",
+      "aliases": [
+        "brainly plus",
+        "homework",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Plus Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 24,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "datacamp",
+      "name": "DataCamp",
+      "category": "education",
+      "color": "#03EF62",
+      "monogram": "DC",
+      "market": "global",
+      "logoDomain": "datacamp.com",
+      "aliases": [
+        "datacamp",
+        "data science",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 159,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "codecademy",
+      "name": "Codecademy",
+      "category": "education",
+      "color": "#1F4056",
+      "monogram": "Cc",
+      "market": "global",
+      "logoDomain": "codecademy.com",
+      "aliases": [
+        "codecademy",
+        "coding",
+        "lap trinh",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Plus Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 179.88,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "pluralsight",
+      "name": "Pluralsight",
+      "category": "education",
+      "color": "#F15B2A",
+      "monogram": "Pl",
+      "market": "global",
+      "logoDomain": "pluralsight.com",
+      "aliases": [
+        "pluralsight",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 399,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "frontend-masters",
+      "name": "Frontend Masters",
+      "category": "education",
+      "color": "#C02D28",
+      "monogram": "FE",
+      "market": "global",
+      "logoDomain": "frontendmasters.com",
+      "aliases": [
+        "frontend masters",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 390,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "abcmouse",
+      "name": "ABCmouse",
+      "category": "education",
+      "color": "#E54D2E",
+      "monogram": "AB",
+      "market": "global",
+      "logoDomain": "abcmouse.com",
+      "aliases": [
+        "abcmouse",
+        "kids",
+        "tre em",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "epic-kids",
+      "name": "Epic",
+      "category": "education",
+      "color": "#45A5F0",
+      "monogram": "Ep",
+      "market": "global",
+      "logoDomain": "getepic.com",
+      "aliases": [
+        "epic",
+        "kids reading",
+        "tre em",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Epic Unlimited",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "lingokids",
+      "name": "Lingokids",
+      "category": "education",
+      "color": "#6A5CFF",
+      "monogram": "LK",
+      "market": "global",
+      "logoDomain": "lingokids.com",
+      "aliases": [
+        "lingokids",
+        "kids",
+        "tre em",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Plus Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 119.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "elevate",
+      "name": "Elevate",
+      "category": "education",
+      "color": "#1C1C3D",
+      "monogram": "El",
+      "market": "global",
+      "logoDomain": "elevateapp.com",
+      "aliases": [
+        "elevate",
+        "brain training",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Pro Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "lumosity",
+      "name": "Lumosity",
+      "category": "education",
+      "color": "#F7941E",
+      "monogram": "Lm",
+      "market": "global",
+      "logoDomain": "lumosity.com",
+      "aliases": [
+        "lumosity",
+        "brain training",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "studocu",
+      "name": "Studocu Premium",
+      "category": "education",
+      "color": "#16A085",
+      "monogram": "SD",
+      "market": "global",
+      "logoDomain": "studocu.com",
+      "aliases": [
+        "studocu premium",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 11.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "speak",
+      "name": "Speak",
+      "category": "education",
+      "color": "#3B82F7",
+      "monogram": "Sp",
+      "market": "global",
+      "logoDomain": "speak.com",
+      "aliases": [
+        "speak",
+        "english",
+        "hoc tieng anh",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 99.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "mondly",
+      "name": "Mondly",
+      "category": "education",
+      "color": "#1D8CF8",
+      "monogram": "Md",
+      "market": "global",
+      "logoDomain": "mondly.com",
+      "aliases": [
+        "mondly",
+        "language",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 47.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "drops",
+      "name": "Drops",
+      "category": "education",
+      "color": "#3F51B5",
+      "monogram": "Dr",
+      "market": "global",
+      "logoDomain": "languagedrops.com",
+      "aliases": [
+        "drops",
+        "language",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 69.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "hocmai",
+      "name": "HOCMAI",
+      "category": "education",
+      "color": "#E2231A",
+      "monogram": "HM",
+      "market": "vn",
+      "logoDomain": "hocmai.vn",
+      "aliases": [
+        "hocmai",
+        "hoc mai",
+        "hoc truc tuyen",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Khoá học năm",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 1500000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "prep",
+      "name": "Prep",
+      "category": "education",
+      "color": "#2D3FE0",
+      "monogram": "Pr",
+      "market": "vn",
+      "logoDomain": "prep.vn",
+      "aliases": [
+        "prep",
+        "ielts",
+        "toeic",
+        "hoc"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "course",
+          "name": "Khoá IELTS",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 3
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 1990000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
       "id": "viettel-mobile",
       "name": "Viettel (di động)",
       "category": "telecom",
@@ -14776,6 +19757,380 @@
         }
       ],
       "note": "2026-11-05 (WebSearch): vnpt.vn/goi-home/home-internet ghi Home 1 (300 Mbps) 190.000đ/tháng, Home 2 (~1 Gbps) 235.000đ; thay đổi theo khu vực."
+    },
+    {
+      "id": "google-fi",
+      "name": "Google Fi Wireless",
+      "category": "telecom",
+      "color": "#3A7BF2",
+      "monogram": "Fi",
+      "market": "global",
+      "logoDomain": "fi.google.com",
+      "aliases": [
+        "google fi wireless",
+        "google fi",
+        "sim",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "simply-unlimited",
+          "name": "Simply Unlimited",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 50,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "mint-mobile",
+      "name": "Mint Mobile",
+      "category": "telecom",
+      "color": "#2EBC4F",
+      "monogram": "MM",
+      "market": "global",
+      "logoDomain": "mintmobile.com",
+      "aliases": [
+        "mint mobile",
+        "sim",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "unlimited-annual",
+          "name": "Unlimited 12 months",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 300,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "visible",
+      "name": "Visible",
+      "category": "telecom",
+      "color": "#1800FF",
+      "monogram": "Vi",
+      "market": "global",
+      "logoDomain": "visible.com",
+      "aliases": [
+        "visible",
+        "sim",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "visible",
+          "name": "Visible",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 25,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "verizon",
+      "name": "Verizon",
+      "category": "telecom",
+      "color": "#CD040B",
+      "monogram": "Vz",
+      "market": "global",
+      "logoDomain": "verizon.com",
+      "aliases": [
+        "verizon",
+        "mobile",
+        "dien thoai",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "unlimited-welcome",
+          "name": "Unlimited Welcome",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 65,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "t-mobile",
+      "name": "T-Mobile",
+      "category": "telecom",
+      "color": "#E20074",
+      "monogram": "TM",
+      "market": "global",
+      "logoDomain": "t-mobile.com",
+      "aliases": [
+        "t-mobile",
+        "mobile",
+        "dien thoai",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "essentials",
+          "name": "Essentials",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 60,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "at-and-t",
+      "name": "AT&T",
+      "category": "telecom",
+      "color": "#00A8E0",
+      "monogram": "AT",
+      "market": "global",
+      "logoDomain": "att.com",
+      "aliases": [
+        "at&t",
+        "att",
+        "mobile",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "unlimited-starter",
+          "name": "Unlimited Starter SL",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 65,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "xfinity",
+      "name": "Xfinity Internet",
+      "category": "telecom",
+      "color": "#6138F5",
+      "monogram": "Xf",
+      "market": "global",
+      "logoDomain": "xfinity.com",
+      "aliases": [
+        "xfinity internet",
+        "comcast",
+        "internet",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "internet",
+          "name": "Internet 300 Mbps",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 55,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "spectrum",
+      "name": "Spectrum Internet",
+      "category": "telecom",
+      "color": "#0099D8",
+      "monogram": "Sp",
+      "market": "global",
+      "logoDomain": "spectrum.com",
+      "aliases": [
+        "spectrum internet",
+        "charter",
+        "internet",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "internet",
+          "name": "Internet Premier",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 50,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "starlink",
+      "name": "Starlink",
+      "category": "telecom",
+      "color": "#000022",
+      "monogram": "SL",
+      "market": "global",
+      "logoDomain": "starlink.com",
+      "aliases": [
+        "starlink",
+        "internet",
+        "satellite",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "residential",
+          "name": "Residential",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 120,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "roam",
+          "name": "Roam 50 GB",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 50,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "airalo",
+      "name": "Airalo",
+      "category": "telecom",
+      "color": "#FF4B4B",
+      "monogram": "Al",
+      "market": "global",
+      "logoDomain": "airalo.com",
+      "aliases": [
+        "airalo",
+        "esim",
+        "sim du lich",
+        "nha mang"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "esim",
+          "name": "eSIM data pack",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
     },
     {
       "id": "amazon-prime",
@@ -15250,6 +20605,1484 @@
         }
       ],
       "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "category": "other",
+      "color": "#FE3C72",
+      "monogram": "Ti",
+      "market": "global",
+      "logoDomain": "tinder.com",
+      "aliases": [
+        "tinder",
+        "dating",
+        "hen ho"
+      ],
+      "storeNames": [
+        "Tinder"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Tinder Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 24.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "gold",
+          "name": "Tinder Gold",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "platinum",
+          "name": "Tinder Platinum",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 49.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "bumble",
+      "name": "Bumble",
+      "category": "other",
+      "color": "#FFC629",
+      "monogram": "Bm",
+      "market": "global",
+      "logoDomain": "bumble.com",
+      "aliases": [
+        "bumble",
+        "dating",
+        "hen ho"
+      ],
+      "storeNames": [
+        "Bumble"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Bumble Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "boost",
+          "name": "Bumble Boost",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 16.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "hinge",
+      "name": "Hinge",
+      "category": "other",
+      "color": "#1A1A1C",
+      "monogram": "Hg",
+      "market": "global",
+      "logoDomain": "hinge.co",
+      "aliases": [
+        "hinge",
+        "dating",
+        "hen ho"
+      ],
+      "storeNames": [
+        "Hinge"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Hinge+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 32.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "x",
+          "name": "HingeX",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 49.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "match",
+      "name": "Match",
+      "category": "other",
+      "color": "#1A1A6E",
+      "monogram": "Ma",
+      "market": "global",
+      "logoDomain": "match.com",
+      "aliases": [
+        "match",
+        "dating",
+        "hen ho"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 44.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "okcupid",
+      "name": "OkCupid",
+      "category": "other",
+      "color": "#0046D4",
+      "monogram": "OK",
+      "market": "global",
+      "logoDomain": "okcupid.com",
+      "aliases": [
+        "okcupid",
+        "dating",
+        "hen ho"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "basic",
+          "name": "Basic",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 24.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "grindr",
+      "name": "Grindr",
+      "category": "other",
+      "color": "#FFCC00",
+      "monogram": "Gr",
+      "market": "global",
+      "logoDomain": "grindr.com",
+      "aliases": [
+        "grindr",
+        "dating"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "xtra",
+          "name": "XTRA",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "unlimited",
+          "name": "Unlimited",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 39.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "feeld",
+      "name": "Feeld Majestic",
+      "category": "other",
+      "color": "#6B3BFF",
+      "monogram": "Fe",
+      "market": "global",
+      "logoDomain": "feeld.co",
+      "aliases": [
+        "feeld majestic",
+        "dating"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "majestic",
+          "name": "Majestic",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 19.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "eharmony",
+      "name": "eharmony",
+      "category": "other",
+      "color": "#00ACC1",
+      "monogram": "eH",
+      "market": "global",
+      "logoDomain": "eharmony.com",
+      "aliases": [
+        "eharmony",
+        "dating"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Light",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 65.9,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "coffee-meets-bagel",
+      "name": "Coffee Meets Bagel",
+      "category": "other",
+      "color": "#3E2723",
+      "monogram": "CM",
+      "market": "global",
+      "logoDomain": "coffeemeetsbagel.com",
+      "aliases": [
+        "coffee meets bagel",
+        "dating"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 34.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "doordash-dashpass",
+      "name": "DashPass",
+      "category": "other",
+      "color": "#FF3008",
+      "monogram": "DP",
+      "market": "global",
+      "logoDomain": "doordash.com",
+      "aliases": [
+        "dashpass",
+        "doordash",
+        "giao do an"
+      ],
+      "storeNames": [
+        "DashPass"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "DashPass",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "DashPass Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 96,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "grubhub-plus",
+      "name": "Grubhub+",
+      "category": "other",
+      "color": "#FF8000",
+      "monogram": "G+",
+      "market": "global",
+      "logoDomain": "grubhub.com",
+      "aliases": [
+        "grubhub+",
+        "grubhub",
+        "giao do an"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Grubhub+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "instacart-plus",
+      "name": "Instacart+",
+      "category": "other",
+      "color": "#43B02A",
+      "monogram": "I+",
+      "market": "global",
+      "logoDomain": "instacart.com",
+      "aliases": [
+        "instacart+",
+        "instacart",
+        "grocery"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Instacart+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Instacart+ Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "walmart-plus",
+      "name": "Walmart+",
+      "category": "other",
+      "color": "#0071DC",
+      "monogram": "W+",
+      "market": "global",
+      "logoDomain": "walmart.com",
+      "aliases": [
+        "walmart+",
+        "walmart"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Walmart+",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 12.95,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Walmart+ Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 98,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "target-circle-360",
+      "name": "Target Circle 360",
+      "category": "other",
+      "color": "#CC0000",
+      "monogram": "T3",
+      "market": "global",
+      "logoDomain": "target.com",
+      "aliases": [
+        "target circle 360",
+        "target"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "costco",
+      "name": "Costco Membership",
+      "category": "other",
+      "color": "#005DAA",
+      "monogram": "Co",
+      "market": "global",
+      "logoDomain": "costco.com",
+      "aliases": [
+        "costco membership"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "gold-star",
+          "name": "Gold Star",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 65,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "executive",
+          "name": "Executive",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 130,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "sams-club",
+      "name": "Sam's Club",
+      "category": "other",
+      "color": "#0067A0",
+      "monogram": "SC",
+      "market": "global",
+      "logoDomain": "samsclub.com",
+      "aliases": [
+        "sam's club"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "club",
+          "name": "Club",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 50,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "plus",
+          "name": "Plus",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 110,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "lyft-pink",
+      "name": "Lyft Pink",
+      "category": "other",
+      "color": "#FF00BF",
+      "monogram": "LP",
+      "market": "global",
+      "logoDomain": "lyft.com",
+      "aliases": [
+        "lyft pink",
+        "lyft"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Lyft Pink",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 9.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "deliveroo-plus",
+      "name": "Deliveroo Plus",
+      "category": "other",
+      "color": "#00CCBC",
+      "monogram": "Dl",
+      "market": "global",
+      "logoDomain": "deliveroo.com",
+      "aliases": [
+        "deliveroo plus",
+        "giao do an"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "silver",
+          "name": "Plus Silver",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 3.49,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "gopuff-fam",
+      "name": "Gopuff FAM",
+      "category": "other",
+      "color": "#00A4FF",
+      "monogram": "GF",
+      "market": "global",
+      "logoDomain": "gopuff.com",
+      "aliases": [
+        "gopuff fam"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "FAM",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 7.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "hellofresh",
+      "name": "HelloFresh",
+      "category": "other",
+      "color": "#99CC33",
+      "monogram": "HF",
+      "market": "global",
+      "logoDomain": "hellofresh.com",
+      "aliases": [
+        "hellofresh",
+        "meal kit"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "weekly",
+          "name": "3 meals x 2 people",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 71.92,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "factor",
+      "name": "Factor",
+      "category": "other",
+      "color": "#1E3A2B",
+      "monogram": "Fc",
+      "market": "global",
+      "logoDomain": "factor75.com",
+      "aliases": [
+        "factor",
+        "meal kit"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "weekly",
+          "name": "6 meals",
+          "status": "active",
+          "cycle": {
+            "unit": "week",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 71.94,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "dollar-shave-club",
+      "name": "Dollar Shave Club",
+      "category": "other",
+      "color": "#002F4B",
+      "monogram": "DS",
+      "market": "global",
+      "logoDomain": "dollarshaveclub.com",
+      "aliases": [
+        "dollar shave club"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Starter Set",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ipsy",
+      "name": "IPSY",
+      "category": "other",
+      "color": "#F0287A",
+      "monogram": "IP",
+      "market": "global",
+      "logoDomain": "ipsy.com",
+      "aliases": [
+        "ipsy",
+        "beauty box"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "glam-bag",
+          "name": "Glam Bag",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "fabfitfun",
+      "name": "FabFitFun",
+      "category": "other",
+      "color": "#E8508F",
+      "monogram": "FF",
+      "market": "global",
+      "logoDomain": "fabfitfun.com",
+      "aliases": [
+        "fabfitfun"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "seasonal",
+          "name": "Seasonal",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 3
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 59.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "rent-the-runway",
+      "name": "Rent the Runway",
+      "category": "other",
+      "color": "#000021",
+      "monogram": "RR",
+      "market": "global",
+      "logoDomain": "renttherunway.com",
+      "aliases": [
+        "rent the runway"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "four",
+          "name": "4 items",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 94,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "barkbox",
+      "name": "BarkBox",
+      "category": "other",
+      "color": "#0099E5",
+      "monogram": "BB",
+      "market": "global",
+      "logoDomain": "barkbox.com",
+      "aliases": [
+        "barkbox",
+        "dog",
+        "cho"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 35,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "ring-protect",
+      "name": "Ring Home",
+      "category": "other",
+      "color": "#1C9AD6",
+      "monogram": "Rg",
+      "market": "global",
+      "logoDomain": "ring.com",
+      "aliases": [
+        "ring home",
+        "ring camera"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "basic",
+          "name": "Basic",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "standard",
+          "name": "Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "nest-aware",
+      "name": "Google Home Premium",
+      "category": "other",
+      "color": "#4285F7",
+      "monogram": "GH",
+      "market": "global",
+      "logoDomain": "home.google.com",
+      "aliases": [
+        "google home premium",
+        "nest aware",
+        "google home"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 10,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 20,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "arlo-secure",
+      "name": "Arlo Secure",
+      "category": "other",
+      "color": "#0D8EEB",
+      "monogram": "Ar",
+      "market": "global",
+      "logoDomain": "arlo.com",
+      "aliases": [
+        "arlo secure",
+        "camera"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "single",
+          "name": "Secure Single Camera",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "simplisafe",
+      "name": "SimpliSafe",
+      "category": "other",
+      "color": "#0F1F3D",
+      "monogram": "SS",
+      "market": "global",
+      "logoDomain": "simplisafe.com",
+      "aliases": [
+        "simplisafe",
+        "security"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 21.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "core",
+          "name": "Core",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 31.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "life360",
+      "name": "Life360",
+      "category": "other",
+      "color": "#8559FF",
+      "monogram": "L3",
+      "market": "global",
+      "logoDomain": "life360.com",
+      "aliases": [
+        "life360",
+        "family locator"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "silver",
+          "name": "Silver",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 4.99,
+              "method": "manual"
+            }
+          }
+        },
+        {
+          "id": "gold",
+          "name": "Gold",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "tile",
+      "name": "Tile Premium",
+      "category": "other",
+      "color": "#1D1D1F",
+      "monogram": "Tl",
+      "market": "global",
+      "logoDomain": "tile.com",
+      "aliases": [
+        "tile premium"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 29.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "facebook-verified",
+      "name": "Meta Verified",
+      "category": "other",
+      "color": "#0866FF",
+      "monogram": "MV",
+      "market": "global",
+      "logoDomain": "meta.com",
+      "aliases": [
+        "meta verified",
+        "facebook",
+        "instagram"
+      ],
+      "storeNames": [
+        "Meta Verified"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Meta Verified",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 14.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "truecaller",
+      "name": "Truecaller Premium",
+      "category": "other",
+      "color": "#0087FF",
+      "monogram": "TC",
+      "market": "global",
+      "logoDomain": "truecaller.com",
+      "aliases": [
+        "truecaller premium",
+        "caller id"
+      ],
+      "storeNames": [
+        "Truecaller"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "annual",
+          "name": "Premium Annual",
+          "status": "active",
+          "cycle": {
+            "unit": "year",
+            "count": 1
+          },
+          "prices": {
+            "US": {
+              "currency": "USD",
+              "amount": 26.99,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia US uoc luong tu hieu biet chung (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "shopee-vip",
+      "name": "Shopee VIP",
+      "category": "other",
+      "color": "#EE4D2D",
+      "monogram": "SV",
+      "market": "vn",
+      "logoDomain": "shopee.vn",
+      "aliases": [
+        "shopee vip",
+        "shopee",
+        "mua sam"
+      ],
+      "storeNames": [
+        "Shopee"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Shopee VIP",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 15000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
+    },
+    {
+      "id": "grab-unlimited",
+      "name": "GrabUnlimited",
+      "category": "other",
+      "color": "#00B14F",
+      "monogram": "GU",
+      "market": "vn",
+      "logoDomain": "grab.com",
+      "aliases": [
+        "grabunlimited",
+        "grab",
+        "giao do an"
+      ],
+      "storeNames": [
+        "Grab"
+      ],
+      "cancelUrl": null,
+      "manageUrl": null,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "GrabUnlimited",
+          "status": "active",
+          "cycle": {
+            "unit": "month",
+            "count": 1
+          },
+          "prices": {
+            "VN": {
+              "currency": "VND",
+              "amount": 39000,
+              "method": "manual"
+            }
+          }
+        }
+      ],
+      "note": "C1 2026-11-06: gia VN uoc luong (Gia tham khao), chua tra trang hang."
     }
   ]
 }
