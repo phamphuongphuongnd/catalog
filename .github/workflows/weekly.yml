@@ -1,0 +1,63 @@
+name: weekly-update
+
+on:
+  schedule:
+    - cron: "0 2 * * 1" # Monday 02:00 UTC (09:00 Vietnam)
+  workflow_dispatch:
+  pull_request:
+    paths: ["subnest/**", "tools/**", "schema/**"]
+
+concurrency:
+  group: catalog-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  validate-pr:
+    # Hand edits arrive as PRs: validate against what is published on main.
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate against published main
+        run: |
+          git show origin/main:subnest/v1/services.json > /tmp/published.json
+          python tools/validate.py subnest/v1/services.json --published /tmp/published.json
+
+  update:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Aristocles is not used (licence unclear — see README). When it is approved, add a step here guarded by
+      #   if: ${{ env.ARISTOCLES_API_KEY != '' }}   with   env: ARISTOCLES_API_KEY: ${{ secrets.ARISTOCLES_API_KEY }}
+
+      - name: Fetch VN prices, validate, build
+        run: python tools/update.py
+
+      - name: Commit data + report (Pages redeploys from main)
+        if: always()
+        run: |
+          git config user.name "catalog-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add subnest reports
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          VERSION=$(python -c "import json;print(json.load(open('subnest/v1/meta.json'))['version'])")
+          git commit -m "Weekly update $(date -u +%F) (data v${VERSION})"
+          git push
