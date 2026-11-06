@@ -7,18 +7,18 @@ Luật xưởng: Claude **không** tự đăng ký tài khoản, tạo khoá hay
 Workflow hằng tuần chỉ đọc trang giá công khai ở Việt Nam → không cần secret. Aristocles đang **không dùng** vì
 chưa rõ quyền đăng lại dữ liệu (README › Aristocles).
 
-## Khi muốn bật Aristocles (giá US/UK/AU/CA — không có IN)
+## Khi muốn bật Aristocles (chỉ giá US — catalog đã rút còn US + VN từ 2026-11-06)
 
 Chỉ làm khi đã có **văn bản cho phép** đăng lại dữ liệu.
 
 1. **Xin phép** — gửi email tới `hello@aristocles.com.au`, ví dụ:
    > Hi, I run a small subscription-tracker app (Subnest). I'd like to fetch your Subscription Pricing API weekly
-   > and republish prices for ~100 services in a public JSON file on GitHub Pages
+   > and republish US prices for the ~50 services you cover (our catalog lists 500+) in a public JSON file on GitHub Pages
    > (github.com/phamphuongphuongnd/catalog), with attribution and a link to Aristocles. Is that allowed on the
    > Free or Pro tier? Thanks.
    Lưu email trả lời (chụp hoặc chuyển tiếp) — đó là căn cứ.
-2. **Đăng ký lấy khoá** (miễn phí, 100 lượt/ngày; ~100 dịch vụ × 4 vùng có thể cần gói Pro hoặc endpoint
-   `/v1/prices/export` theo vùng = 4 lượt/tuần):
+2. **Đăng ký lấy khoá** (miễn phí, 100 lượt/ngày — đủ: chỉ cần vùng US, endpoint `/v1/prices/export?country=US`
+   = 1 lượt/tuần):
    ```bash
    curl -X POST https://api.aristocles.com.au/v1/auth/register -H "Content-Type: application/json" -d "{\"email\": \"EMAIL_CUA_BAN\", \"name\": \"TEN_CUA_BAN\"}"
    ```

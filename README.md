@@ -9,7 +9,7 @@ Quyết định gốc: ADR `apps/A001-subnest/docs/adr/0002-remote-catalog-githu
 | URL | Dùng cho |
 |---|---|
 | `https://phamphuongphuongnd.github.io/catalog/subnest/v1/meta.json` | Kiểm tra nhanh có bản mới không (`version`, `sha256`) |
-| `https://phamphuongphuongnd.github.io/catalog/subnest/v1/services.min.json` | **App tải file này** (không có `note`, ~100 KB) |
+| `https://phamphuongphuongnd.github.io/catalog/subnest/v1/services.min.json` | **App tải file này** (không có `note`) |
 | `https://phamphuongphuongnd.github.io/catalog/subnest/v1/services.json` | Bản đầy đủ, dễ đọc, có `note` cho người bảo trì |
 | `https://phamphuongphuongnd.github.io/catalog/schema/subnest-v4.schema.json` | JSON Schema |
 
@@ -20,8 +20,9 @@ dùng bản đã cache hoặc bản đóng gói trong app. Đổi schema phá v�
 
 ## Schema v4 (Subnest)
 
-Tương thích đọc với v3 (bản đóng gói trong app): mọi trường v3 giữ nguyên tên/kiểu, trừ `Price.approx` được thay
-bằng `verifiedAt/source/method`. Trình đọc v3 bỏ qua trường lạ vẫn đọc được (nhưng không biết vùng mới UK/AU/CA/IN).
+Tương thích đọc với v3: mọi trường v3 giữ nguyên tên/kiểu, trừ `Price.approx` được thay bằng `verifiedAt/source/method`.
+**Rút gọn 2026-11-06** (ADR 0002 › Sửa đổi): chỉ hai vùng **US** (giá dùng chung cho mọi người, app quy đổi "≈") và
+**VN** (giá VND cho dịch vụ bán ở VN, chỉ dùng khi máy ở VN); thêm `storeNames` tuỳ chọn cho bộ quét ảnh.
 
 ### Gốc
 
@@ -31,7 +32,7 @@ bằng `verifiedAt/source/method`. Trình đọc v3 bỏ qua trường lạ vẫ
 | `version` | int ≥ 1 | Phiên bản **dữ liệu**, tăng mỗi lần dữ liệu đổi; nối tiếp v1–v3 đóng gói (bản đầu từ xa = 4). App dùng bản có `version` lớn nhất hợp lệ. |
 | `updatedAt` | `YYYY-MM-DD` | Ngày đổi dữ liệu gần nhất. |
 | `staleAfterDays` | `90` | Giá có `verifiedAt` cũ hơn số ngày này, hoặc không có `verifiedAt`, là **giá ước tính** (app hiện "≈"). |
-| `regions` | object | `{"VN":"VND","US":"USD","UK":"GBP","AU":"AUD","CA":"CAD","IN":"INR"}`. Lưu ý: Anh là `UK` (mã ISO là `GB` — app phải đổi `GB → UK`). |
+| `regions` | object | `{"US":"USD","VN":"VND"}` (cố định). |
 | `services` | Service[] | Theo thứ tự danh mục. |
 
 ### Service
@@ -43,9 +44,10 @@ bằng `verifiedAt/source/method`. Trình đọc v3 bỏ qua trường lạ vẫ
 | `category` | enum | ✔ | `video, music, ai, storage, software, gaming, reading, health, education, telecom, other`. |
 | `color` | `#RRGGBB` | ✔ | Nền tile monogram. |
 | `monogram` | 1–2 ký tự | ✔ | Chữ trên tile. Cặp (`color`, `monogram`) không trùng. |
-| `market` | `global` \| `vn` | ✔ | `vn` = dịch vụ Việt Nam (xếp lên đầu khi máy ở VN). |
+| `market` | `global` \| `vn` | ✔ | **Catalog section**: `global` = mục *Chung* (ai cũng thấy); `vn` = mục *Việt Nam* (chỉ hiện khi máy ở VN; có thể chỉ có giá VN). |
 | `logoDomain` | host | ✔ | **Mới.** Tên miền cho logo.dev, vd `netflix.com` → `https://img.logo.dev/netflix.com?token=pk_…`. |
 | `aliases` | string[] chữ thường | ✔ | Từ khoá tìm kiếm (gồm tiếng Việt không dấu). |
+| `storeNames` | string[] | | **Mới (tuỳ chọn).** Tên dịch vụ/gói đúng như hiện trên trang "Gói thuê bao" của Google Play và "Subscriptions" của App Store (vd `"YouTube Premium"`, `"ChatGPT Plus"`, `"Max"`) — bộ quét ảnh khớp theo thứ tự `storeNames` → `name` → `aliases`. Hiện là tên ước lượng, chưa đối chiếu ảnh chụp thật. |
 | `cancelUrl`, `manageUrl` | https URL \| null | ✔ | Trang huỷ / quản lý gói. |
 | `plans` | Plan[] ≥ 1 | ✔ | Gói đầu là gói mặc định. |
 | `note` | string | | Ghi chú nguồn cho người bảo trì. **Không có trong `services.min.json`.** |
@@ -72,7 +74,8 @@ bằng `verifiedAt/source/method`. Trình đọc v3 bỏ qua trường lạ vẫ
 | `source` | https URL | đi cùng `verifiedAt` | Trang đã đọc giá. Giá chuyển từ v3 trỏ về `docs/sources-v3.md#<id>` (ghi chú nguồn đợt tra tay). |
 | `method` | `aristocles` \| `vn-parser` \| `manual` | ✔ | Cách lấy giá: API Aristocles · bộ đọc trang VN · người bảo trì nhập tay. |
 
-**Giá ước tính** (thay cho `approx` v3) = không có `verifiedAt` **hoặc** `today − verifiedAt > staleAfterDays`.
+**Reference price / Giá tham khảo** (thay cho `approx` v3) = không có `verifiedAt` **hoặc** `today − verifiedAt > staleAfterDays`.
+App vẫn điền sẵn nhưng hiện chip "Giá tham khảo".
 
 ### Ví dụ
 
@@ -97,7 +100,8 @@ bằng `verifiedAt/source/method`. Trình đọc v3 bỏ qua trường lạ vẫ
 |---|---|---|
 | Bản v3 tra tay (2026-11-04/05, WebSearch + trình duyệt) | VN, US | Dữ liệu nền; 247/284 giá có `verifiedAt` 2026-11-05 |
 | Bộ đọc trang VN (`tools/vn_parsers/`) | VN | **Chạy hằng tuần** — 7 trang: Netflix VN, Spotify VN, VNPT Internet, VinaPhone BIG90/BIG120, MobiFone TK135, Monkey Junior, FPT Internet |
-| API Aristocles | US/UK/AU/CA/NZ | **Không dùng** — xem dưới |
+| Đợt C1 (2026-11-06): +401 dịch vụ toàn cầu, WebSearch giới hạn trang hãng | US | 151 dịch vụ có ≥ 1 giá US `verifiedAt`; phần còn lại là giá tham khảo, `note` ghi "ước lượng" |
+| API Aristocles | US | **Không dùng** — xem dưới |
 | Nhập tay (PR) | mọi vùng | Sửa `subnest/v1/services.json`, `method: "manual"`, PR được validator kiểm |
 
 Các trang VN không đọc tự động được và lý do: `UNREADABLE` trong `tools/vn_parsers/services.py`
@@ -115,12 +119,13 @@ báo cáo tuần.
   (repo này public, ai cũng tải được).
 - **Giới hạn:** Free 100 lượt/ngày; Pro $9/tháng 10.000 lượt/ngày; Enterprise $49/tháng không giới hạn. Đăng ký bằng
   email, khoá dạng `ar_live_…`, gửi qua header `X-API-Key`.
-- **Vùng:** "chủ yếu AUD"; tham số `country` nhận AU, US, UK, CA, NZ — **không có IN, không có VN**. ~50+ dịch vụ.
-- **Kết luận: KHÔNG DÙNG** (quyền đăng lại không rõ + thiếu vùng IN). Không có script `fetch_aristocles.py`;
+- **Vùng:** "chủ yếu AUD"; tham số `country` nhận AU, US, UK, CA, NZ — catalog chỉ cần **US**. ~50+ dịch vụ.
+- **Kết luận (giữ sau khi rút còn US, 2026-11-06): KHÔNG DÙNG** vì quyền đăng lại công khai không rõ → mọi giá US là
+  `method: "manual"`. Không có script `fetch_aristocles.py`;
   workflow ghi "bỏ qua" mỗi tuần. Muốn bật: xin phép bằng văn bản (email `hello@aristocles.com.au`) cho việc đăng lại
   giá trong một catalog công khai có ghi nguồn → xem `docs/KEYS.md`.
 
-Hệ quả: hiện chỉ có giá **VN + US**; UK/AU/CA/IN chưa có số liệu (app dùng giá US quy đổi "≈" theo ADR 0002).
+Hệ quả: giá US cập nhật tay (PR) theo `staleAfterDays`; bộ đọc tự động chỉ chạy cho VN.
 
 ## Quy trình hằng tuần (`.github/workflows/weekly.yml`)
 
@@ -142,6 +147,8 @@ python tools/validate.py                                    # kiểm subnest/v1/
 python tools/validate.py new.json --published old.json      # + luật không xoá id, cảnh báo giá đổi > 50 %
 python tools/update.py --dry-run                            # chạy bộ đọc, in báo cáo, không ghi file
 python tools/migrate_v3.py <v3/services.json>               # một lần: v3 (app) -> v4 (đã chạy 2026-11-06)
+python tools/import_batch.py batch.txt [--dry-run]           # thêm dịch vụ / storeNames / giá US đã xác minh từ file gọn
+python tools/export_app_asset.py ../apps/A001-subnest/assets/catalog   # bản đóng gói cho app (không note) + validator
 ```
 
 Sửa tay: sửa `subnest/v1/services.json` (đặt `method: "manual"`, `verifiedAt`, `source`), rồi chạy
@@ -156,7 +163,7 @@ Thêm bộ đọc VN: một hàm `@reader` trong `tools/vn_parsers/services.py`,
 ```
 subnest/v1/   services.json · services.min.json · meta.json     (được Pages phục vụ)
 schema/       subnest-v4.schema.json
-tools/        common.py · validate.py · update.py · migrate_v3.py · vn_parsers/
+tools/        common.py · validate.py · update.py · migrate_v3.py · import_batch.py · export_app_asset.py · vn_parsers/
 reports/      báo cáo mỗi lượt cập nhật
 docs/         KEYS.md (khoá/bí mật — người dùng tự làm) · sources-v3.md (ghi chú nguồn v3)
 ```
