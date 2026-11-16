@@ -1,7 +1,7 @@
 {
   "schemaVersion": 4,
-  "version": 13,
-  "updatedAt": "2026-11-09",
+  "version": 14,
+  "updatedAt": "2026-11-16",
   "staleAfterDays": 90,
   "regions": {
     "US": "USD",
@@ -36,7 +36,7 @@
             "VN": {
               "currency": "VND",
               "amount": 74000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://help.netflix.com/vi/node/24926/vn",
               "method": "vn-parser"
             }
@@ -72,7 +72,7 @@
             "VN": {
               "currency": "VND",
               "amount": 114000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://help.netflix.com/vi/node/24926/vn",
               "method": "vn-parser"
             }
@@ -90,7 +90,7 @@
             "VN": {
               "currency": "VND",
               "amount": 231000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://help.netflix.com/vi/node/24926/vn",
               "method": "vn-parser"
             },
@@ -115,7 +115,7 @@
             "VN": {
               "currency": "VND",
               "amount": 273000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://help.netflix.com/vi/node/24926/vn",
               "method": "vn-parser"
             },
@@ -3150,7 +3150,7 @@
             "VN": {
               "currency": "VND",
               "amount": 65000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://www.spotify.com/vn-vi/premium/",
               "method": "vn-parser"
             },
@@ -18461,7 +18461,7 @@
             "VN": {
               "currency": "VND",
               "amount": 799000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://monkey.edu.vn/san-pham/monkey-junior",
               "method": "vn-parser"
             }
@@ -19732,7 +19732,7 @@
             "VN": {
               "currency": "VND",
               "amount": 120000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://vnpt.vn/4g/big120",
               "method": "vn-parser"
             }
@@ -19788,7 +19788,7 @@
             "VN": {
               "currency": "VND",
               "amount": 135000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://www.mobifone.vn/dich-vu-di-dong/chi-tiet-goi-cuoc/tk135-TK135",
               "method": "vn-parser"
             }
@@ -19864,7 +19864,7 @@
             "VN": {
               "currency": "VND",
               "amount": 195000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://fpt.vn/internet",
               "method": "vn-parser"
             }
@@ -19919,7 +19919,7 @@
             "VN": {
               "currency": "VND",
               "amount": 190000,
-              "verifiedAt": "2026-11-09",
+              "verifiedAt": "2026-11-16",
               "source": "https://vnpt.vn/goi-home/home-internet",
               "method": "vn-parser"
             }
